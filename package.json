@@ -1,0 +1,16 @@
+{
+  "name": "beepbot-lang",
+  "version": "0.0.2",
+  "description": "Language files used by BeepBot.",
+  "author": "Kieron Richardson",
+  "license": "MIT",
+  "homepage": "https://github.com/artdude543/BeepBot-Lang",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/artdude543/BeepBot-Lang/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artdude543/BeepBot-Lang.git"
+  }
+}
