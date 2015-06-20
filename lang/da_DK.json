@@ -1,0 +1,120 @@
+{
+  "bot" : {
+    "ping": "Pong!",
+    "ding": "Ding!",
+    "commands": "find kanalens kommandoer her: ",
+    "followers": "%s har %d følgende beamers!",
+    "rank": "%s er lige nu %s på GamerLabs Beam Leaderboard!",
+    "uptime": " livestreameren har beamet i %s"
+  },
+  "channel": {
+    "raided": "du mangler navnet på den der raidede."
+  },
+  "custom": {
+    "add": {
+      "success": "Tilføjede %s kommandoen!",
+      "err": {
+        "internal": "dette kommand navn er allerede i brug, vælg venligst et andet navn.",
+        "userlevelhigher": "du kan ikke tilføje en kommando for et bruger niveau højere end dit eget.",
+        "missingexplanationpoint": "du mangler udråbstegnet på kommando navnet."
+      }
+    },
+    "edit": {
+      "success": "Ændrede %s kommandoen.",
+      "err": {
+        "internal": "dette kommand navn er allerede i brug, vælg venligst et andet navn.",
+        "userlevelhigher": "du kan ikke ændre en kommando for et bruger niveau højere end dit eget.",
+        "missingexplanationpoint": "du mangler udråbstegnet på kommando navnet."
+      }
+    },
+    "remove": {
+      "success": "Slettede %s kommando.",
+      "err": {
+        "internal": "du kan ikke slette en bot kommando!"
+      }
+    }
+  },
+  "other": {
+    "matt": "Matt er kærlighed, Matt er livet! <3",
+    "connor": "Din sjæl er blevet stjålet.",
+    "james": "Hvoooorrrr er min suuuuuper draaaaaagt!",
+    "gigonaut": "Skrald ind, skrald ud!",
+    "beam": "Beam er kærlighed, Beam er livet! #WhatDelay",
+    "colors": "Chat farver er som følger: Rød = Ansatte, Gul = Udvikler, Hvid = Livestreamer, Grøn = Moderator, Lilla = Pro, Blå = Brugere.",
+    "delay": "Hvilken forsinkelse?",
+    "beepbot": "BeepBot er kærlighed, BeepBot er livet."
+  },
+  "points": {
+    "getSelf": "@%s har %d %s",
+    "getUser": "du har %d %s",
+    "top": "Brugere med flest %s: %s",
+    "give": {
+      "success": {
+        "all": "Tillykke! Alle aktive brugere har modtaget %d %s!",
+        "user": "du har modtaget @%s %d"
+      },
+      "err": {
+        "notenoughpoints": "du har ikke nok points at sende!"
+      }
+    }
+  },
+  "protection": {
+    "wake": {
+      "on": "BeepBot er vågnet op fra hans dvale!",
+      "err": "BeepBot er allerede vågen trives livet! Hvis du vil have ham til at sove, brug !sleep"
+    },
+    "sleep": {
+      "on": "BeepBot sover nu, glem ikke at vække ham snart!",
+      "err": "BeepBot sover allerede! For at vække ham, brug !wake"
+    },
+    "permit": {
+      "success": "%s har fået tilladelse til at sende et link.",
+      "err": {
+        "alreadyallowed": "%s har allerede fået tilladelse til at sende et link. Fjerner bruger fra listen og giver tilladelse på ny.",
+        "usernotset": "du skal vælge en bruger at give tilladelse."
+      }
+    },
+    "lastmsg": "%s besked var: %s",
+    "purge": {
+      "success": "%s's beskeder er blevet fjernet fra chatten!",
+      "err": {
+        "usernotset": "du mangler navnet på brugeren, du ønsker at fjerne beskeder fra."
+      }
+    },
+    "silence": {
+      "on": "I kan godt nok lide at snakke meget... [Stille-tilstand frakoblet]",
+      "off": "I kan godt nok lide at snakke meget... [Stille-tilstand tilsluttet]"
+    },
+    "delmsg": {
+      "caps": "Du blev lige pwnt for at bruge for mange caps!",
+      "links": "Send venligst ikke links uden tilladelse!",
+      "emotes": "Spam venligst ikke emotes!",
+      "profanity": "Brug venligst ikke groft sprog!"
+    }
+  },
+  "quote": {
+    "add": {
+      "success": "Citat tilføjet! Du kan kalde dette citat med ID: %s"
+    },
+    "remove": {
+      "success": "Fjernet citat %s"
+    },
+    "get": {
+      "notfound": "dette citat findes ikke!"
+    }
+  },
+  "random": {
+    "start": "har startet et tilfældig tal spil. Send dit gæt med et tilfældigt tal mellem %s og %s!",
+    "won": "har gættet tallet! Godt klaret! (Tallet var: %s)"
+  },
+  "regulars": {
+    "err": {
+      "already": "denne bruger er allerede en regulær.",
+      "notareg": "denne bruger er ikke en regulær."
+    }
+  },
+  "winner": {
+    "wait": "og vinderen er...",
+    "win": " er vinderen! Tillykke!"
+  }
+}
