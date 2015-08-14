@@ -32,6 +32,7 @@ custom.success.commanddeleted=@%s successfully removed the !%s command.
 # Protection
 protection.purge.capsoveruse=@%s you just got pwnt for using too many caps!
 protection.purge.linksposting=@%s please don't post links without permission!
+protection.purge.bannedword=@%s you cannot say that here.
 
 # Permit
 permit.error.usermissing=@%s you need to specify the user to permit.
