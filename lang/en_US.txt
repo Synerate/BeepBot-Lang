@@ -5,7 +5,7 @@ generic.error.notlive=Oops! The streamer is not live to perform this action.
 # Bot Commands
 bot.command.help=You can find help for the bot here: %s
 bot.command.version=(Core) %s (Client) %s
-bot.command.status=(Core) Uptime: %s, RAM: %s, Clients: %s
+bot.command.status=(Core) Uptime: %s, RAM: %s
 bot.command.commands=@%s find the channel commands here: https://beepbot.net/public/%s
 bot.command.followers=%s has %s following users.
 bot.command.rank=%s is currently %s on the GamerLabs Beam Leaderboard!
@@ -33,6 +33,10 @@ custom.success.commanddeleted=@%s successfully removed the !%s command.
 protection.purge.capsoveruse=@%s you just got pwnt for using too many caps!
 protection.purge.linksposting=@%s please don't post links without permission!
 
+# Permit
+permit.error.usermissing=@%s you need to specify the user to permit.
+permit.success.permit=@%s has been permitted to post a link.
+
 # Regulars
 regulars.error.already=@%s this user is already a regular.
 regulars.error.notreg=@%s this user is not a regular.
@@ -50,11 +54,11 @@ random.message.matt=Matt is love, Matt is life! <3
 random.message.connor=Your soul has been stolen.
 random.message.james=Wheereres my suppppper suittttt!
 random.message.gigonaut=Garbage in garbage out!
-random.message.beam=Beam is love, Beam is life! #WhatDelay
+random.message.whatdelay=Beam is love, Beam is life! #WhatDelay
 random.message.angelz=ALL HAIL!! The one and only, almighty Angelz!! Our great and almighty ruler!! Kappa Mess with her feel the wrath!
 random.message.colours=Chat colors are as follows: Red = Staff, Yellow = Dev, White = Caster, Green = Mod, Purple = Pro, Blue = Users.
 random.message.delay=What delay?
-random.message.beepbot=BeepBot is a chat bot built for Beam. It is created by @artdude543 & @alfw & @UnwrittenFun To find out more head on over to https://beepbot.net
+random.message.beepbot=BeepBot is a chat bot designed to work cross platform. It is created by @artdude543 & @alfw & @UnwrittenFun To find out more head on over to https://beepbot.net
 
 # Server Query
 server.query.error.querymissing=@%s Oops you need to set the game type for the query.
@@ -72,3 +76,7 @@ quotes.error.quotemissing=@%s you need to specify the quote message.
 quotes.error.quotenotfound=@%s this quote does not exist.
 quotes.success.quoteadded=@%s the quote has been successfully added you can call the quote with the ID: %s.
 quotes.success.quoteremoved=@%s the quote %s has been removed successfully.
+
+# Uptime
+uptime.error.notlive=@%s the streamer is not live to get the uptime.
+uptime.success.message=@%s the streamer has been live for %s

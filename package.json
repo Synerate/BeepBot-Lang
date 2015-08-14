@@ -1,16 +1,23 @@
 {
   "name": "beepbot-lang",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Language files used by BeepBot.",
   "author": "Kieron Richardson",
   "license": "MIT",
-  "homepage": "https://github.com/artdude543/BeepBot-Lang",
+  "homepage": "https://github.com/ExoZoneDev/BeepBot-Lang",
   "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  },
   "bugs": {
-    "url": "https://github.com/artdude543/BeepBot-Lang/issues"
+    "url": "https://github.com/ExoZoneDev/BeepBot-Lang/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/artdude543/BeepBot-Lang.git"
-  }
+    "url": "https://github.com/ExoZoneDev/BeepBot-Lang.git"
+  },
+  "keywords": [
+    "locale",
+    "lang"
+  ]
 }
