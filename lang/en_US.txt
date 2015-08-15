@@ -1,6 +1,7 @@
 # Generic
 generic.error.redis=There was an error while processing your request. Contact support for assistance.
 generic.error.notlive=Oops! The streamer is not live to perform this action.
+generic.error.databasesave=Error saving something to the database.
 
 # Bot Commands
 bot.command.help=You can find help for the bot here: %s
@@ -33,6 +34,10 @@ custom.success.commanddeleted=@%s successfully removed the !%s command.
 protection.purge.capsoveruse=@%s you just got pwnt for using too many caps!
 protection.purge.linksposting=@%s please don't post links without permission!
 protection.purge.bannedword=@%s you cannot say that here.
+protection.sleep.success=Protection disabled.
+protection.sleep.unchanged=Protection already disabled.
+protection.wake.success=Protection enabled.
+protection.wake.unchanged=Protection already enabled.
 
 # Permit
 permit.error.usermissing=@%s you need to specify the user to permit.
