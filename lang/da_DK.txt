@@ -1,8 +1,3 @@
-# Generic
-generic.error.redis=There was an error while processing your request. Contact support for assistance.
-generic.error.notlive=Oops! The streamer is not live to perform this action.
-generic.error.databasesave=Error saving something to the database.
-
 # Bot Commands
 bot.command.help=Du kan finde hjælp til botten her: %s
 bot.command.version=(Kerne) %s (Klient) %s
