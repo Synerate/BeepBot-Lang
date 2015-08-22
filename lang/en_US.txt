@@ -41,12 +41,13 @@ protection.wake.unchanged=Protection already enabled.
 
 # Permit
 permit.error.usermissing=@%s you need to specify the user to permit.
-permit.success.permit=@%s has been permitted to post a link.
+permit.error.permitfailed=@%s there was an error while trying to permit the user, please contact bot support.
+permit.success.message=@%s has been permitted to post a link.
 
 # Regulars
 regulars.error.already=@%s this user is already a regular.
 regulars.error.notreg=@%s this user is not a regular.
-regulars.error.cmdtype=@%s Oops, the support command types are: add / rm.
+regulars.error.cmdtype=@%s Oops, the supported command types are: add / rm.
 regulars.success.add=@%s successfully added @%s to the regulars list.
 regulars.success.remove=@%s successfully removed @%s to the regulars list.
 
