@@ -79,9 +79,14 @@ winner.message.end=@%s is the winner! Grats!
 # Quotes
 quotes.error.usermissing=@%s you need to specify the username of whom spoke the quote.
 quotes.error.quotemissing=@%s you need to specify the quote message.
+quotes.error.quoteslengthshort=@%s the quote message specified is too short.
 quotes.error.quotenotfound=@%s this quote does not exist.
+quotes.error.missingquoteid=@%s you are missing the quote ID.
+quotes.error.quotesempty=@%s no quotes were found for this channel.
+quotes.error.quotealreadydeleted=@%s this quote has been marked for deletion already.
 quotes.success.quoteadded=@%s the quote has been successfully added you can call the quote with the ID: %s.
-quotes.success.quoteremoved=@%s the quote %s has been removed successfully.
+quotes.success.quoteremovesoft=@%s successfully marked the quote %s for deletion.
+quotes.success.quoteremovedhard=@%s the quote %s has been removed successfully.
 
 # Uptime
 uptime.error.notlive=@%s the streamer is not live to get the uptime.
