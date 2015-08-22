@@ -65,8 +65,9 @@ random.message.beepbot=BeepBot is a chat bot designed to work cross platform. It
 regulars.error.already=@%s this user is already a regular.
 regulars.error.notreg=@%s this user is not a regular.
 regulars.error.cmdtype=@%s Oops, the supported command types are: add / rm.
-regulars.error.usermissing=@%s you need to specify the username of the regular to add or remove
-regulars.error.usernotfound=@%s this user does not exist
+regulars.error.usermissing=@%s you need to specify the username of the regular to add or remove.
+regulars.error.usernotfound=@%s this user does not exist.
+regulars.error.regself=@%s you can't add or remove yourself as a regular.
 regulars.success.add=@%s successfully added @%s to the regulars list.
 regulars.success.remove=@%s successfully removed @%s from the regulars list.
 
