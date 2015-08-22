@@ -2,6 +2,7 @@
 generic.error.redis=There was an error while processing your request. Contact support for assistance.
 generic.error.notlive=Oops! The streamer is not live to perform this action.
 generic.error.databasesave=Error saving something to the database.
+generic.error.database=There was an error while processing your request. Contact support for assistance.
 
 # Bot Commands
 bot.command.help=You can find help for the bot here: %s
@@ -64,8 +65,10 @@ random.message.beepbot=BeepBot is a chat bot designed to work cross platform. It
 regulars.error.already=@%s this user is already a regular.
 regulars.error.notreg=@%s this user is not a regular.
 regulars.error.cmdtype=@%s Oops, the supported command types are: add / rm.
+regulars.error.usermissing=@%s you need to specify the username of the regular to add or remove
+regulars.error.usernotfound=@%s this user does not exist
 regulars.success.add=@%s successfully added @%s to the regulars list.
-regulars.success.remove=@%s successfully removed @%s to the regulars list.
+regulars.success.remove=@%s successfully removed @%s from the regulars list.
 
 # Server Query
 server.query.error.querymissing=@%s Oops you need to set the game type for the query.
