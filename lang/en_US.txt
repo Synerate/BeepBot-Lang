@@ -13,10 +13,6 @@ bot.command.rank=%s is currently %s on the GamerLabs Beam Leaderboard!
 bot.command.uptime=@%s the streamer has been %s for %s
 bot.command.karaoke=The next Karaoke Party Battle is for: "%s" Link: %s
 
-# Channel Commands
-channel.raided.usermissing=@%s you are missing the users name of whom raided.
-channel.raided.success=@%s has just raided us! Please visit to their channel, by saying thank you and giving them a follow! %s/%s
-
 # Commands
 custom.error.commandmissing=@%s Oops, you need to specify a command name to use for the command.
 custom.error.internalcommand=@%s this command name is used by a global command. Please choose a different name.
@@ -44,12 +40,9 @@ permit.error.usermissing=@%s you need to specify the user to permit.
 permit.error.permitfailed=@%s there was an error while trying to permit the user, please contact bot support.
 permit.success.message=@%s has been permitted to post a link.
 
-# Regulars
-regulars.error.already=@%s this user is already a regular.
-regulars.error.notreg=@%s this user is not a regular.
-regulars.error.cmdtype=@%s Oops, the supported command types are: add / rm.
-regulars.success.add=@%s successfully added @%s to the regulars list.
-regulars.success.remove=@%s successfully removed @%s to the regulars list.
+# Raided
+raided.error.usermissing=@%s you are missing the users name of whom raided.
+raided.success.message=@$touser has just raided us! Please visit their channel and give them a follow to say thanks! $(stream $touser)
 
 # Random
 random.message.bing=@%s Bong!
@@ -67,6 +60,13 @@ random.message.colours=Chat colors are as follows: Red = Staff, Yellow = Dev, Wh
 random.message.delay=What delay?
 random.message.beepbot=BeepBot is a chat bot designed to work cross platform. It is created by @artdude543 & @alfw & @UnwrittenFun To find out more head on over to https://beepbot.net
 
+# Regulars
+regulars.error.already=@%s this user is already a regular.
+regulars.error.notreg=@%s this user is not a regular.
+regulars.error.cmdtype=@%s Oops, the supported command types are: add / rm.
+regulars.success.add=@%s successfully added @%s to the regulars list.
+regulars.success.remove=@%s successfully removed @%s to the regulars list.
+
 # Server Query
 server.query.error.querymissing=@%s Oops you need to set the game type for the query.
 server.query.error.servermissing=@%s Oops you need to set the server details to use for the query.
@@ -76,9 +76,6 @@ server.query.success.message=%s on %s with %s / %s players.
 # Winner
 winner.message.wait=and the winner is...
 winner.message.end=@%s is the winner! Grats!
-
-# Raided
-raided.success.message=@$touser has just raided us! Please visit their channel and give them a follow to say thanks! $(stream $touser)
 
 # Quotes
 quotes.error.usermissing=@%s you need to specify the username of whom spoke the quote.
