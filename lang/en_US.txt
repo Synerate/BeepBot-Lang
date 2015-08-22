@@ -76,6 +76,9 @@ server.query.success.message=%s on %s with %s / %s players.
 winner.message.wait=and the winner is...
 winner.message.end=@%s is the winner! Grats!
 
+# Raided
+raided.success.message=@$touser has just raided us! Please visit their channel and give them a follow to say thanks! $(stream $touser)
+
 # Quotes
 quotes.error.usermissing=@%s you need to specify the username of whom spoke the quote.
 quotes.error.quotemissing=@%s you need to specify the quote message.
