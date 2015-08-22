@@ -1,0 +1,76 @@
+# Generic
+generic.error.redis=There was an error while processing your request. Contact support for assistance.
+generic.error.notlive=Oops! The streamer is not live to perform this action.
+generic.error.databasesave=Error saving something to the database.
+
+# Bot Commands
+bot.command.help=Du kan finde hjælp til botten her: %s
+bot.command.version=(Kerne) %s (Klient) %s
+bot.command.status=(Kerne) Oppetid: %s, RAM: %s
+bot.command.commands=@%s find kanalens kommandoer her: https://beepbot.net/public/%s
+bot.command.followers=%s har %s følgende brugere.
+bot.command.rank=%s er lige nu %s på GamerLabs Beam Leaderboard!
+bot.command.uptime=@%s streameren har været %s i %s
+
+# Commands
+custom.error.commandmissing=@%s Ups, du mangler at specificere et kommand navn til at bruge for kommandoen.
+custom.error.internalcommand=@%s dette kommando navn bruges af en global kommando. Brug venligst et andet navn.
+custom.error.commandfound=@%s dette kommand navn er allerede i brug, vælg venligst et andet navn.
+custom.error.userlevelhigher=@%s du kan ikke tilføje/redigere/fjerne en kommando for et bruger niveau højere end dit eget.
+custom.error.messagetooshort=@%s Ups, det ser ud til at du ikke har specificeret en besked til kommandoen.
+custom.error.commandnotfound=@%s Ups, denne kommando var ikke fundet. Bruger du det rigtige navn?
+custom.error.commandalreadydeleted=@%s denne kommando er allerede sat til sletning.
+custom.success.commandadded=@%s tilføjede !%s kommandoen.
+custom.success.commandedited=@%s redigerede !%s kommandoen.
+custom.success.commandmarkeddeleted=@%s satte !%s kommandoen til fjernelse.
+custom.success.commanddeleted=@%s fjernede !%s kommandoen.
+
+# Protection
+protection.purge.capsoveruse=@%s du blev lige pwnt for at bruge for mange caps!
+protection.purge.linksposting=@%s send venligst ikke links uden tilladelse!
+protection.purge.bannedword=@%s du kan ikke sige det her.
+protection.sleep.success=Beskyttelse slået fra.
+protection.sleep.unchanged=Beskyttelse er allerede slået fra.
+protection.wake.success=Beskyttelse slået til.
+protection.wake.unchanged=Beskyttelse er allerede slået til.
+
+# Permit
+permit.error.usermissing=@%s du mangler at specificere, hvilken bruger du vil give tilladelse.
+permit.success.message=@%s har fået tilladelse til at sende et link.
+
+# Regulars
+regulars.error.already=@%s denne bruger er allerede en regulær.
+regulars.error.notreg=@%s denne bruger er ikke en regulær.
+regulars.error.cmdtype=@%s Ups, de understøttede kommando typer er: add / rm.
+regulars.success.add=@%s tilføjede @%s som regulær.
+regulars.success.remove=@%s fjernede @%s som regulær.
+
+# Random
+random.message.matt=Matt er kærlighed, Matt er livet! <3
+random.message.connor=Din sjæl er blevet stjålet.
+random.message.james=Hvoooorrrr er min suuuuuper draaaaaagt!
+random.message.gigonaut=Skrald ind, skrald ud!
+random.message.whatdelay=Beam er kærlighed, Beam er livet! #WhatDelay
+random.message.colours=Chat farver er som følger: Rød = Ansatte, Gul = Udvikler, Hvid = Livestreamer, Grøn = Moderator, Lilla = Pro, Blå = Brugere.
+random.message.delay=Hvilken forsinkelse?
+random.message.beepbot=BeepBot er en chat bot designet til at virke på tværs af platforme. Den er lavet af @artdude543, @alfw og @UnwrittenFun. For at finde ud af mere, gå ind på https://beepbot.net
+
+# Winner
+winner.message.wait=og vinderen er...
+winner.message.end=@%s vandt! Tillykke!
+
+# Quotes
+quotes.error.usermissing=@%s du mangler at specificere brugernavnet på den der sagde citatet.
+quotes.error.quotemissing=@%s du mangler at specifiere citat besked.
+quotes.error.quoteslengthshort=@%s citat beskeden var for kort.
+quotes.error.quotenotfound=@%s dette citat findes ikke.
+quotes.error.missingquoteid=@%s du mangler citat ID.
+quotes.error.quotesempty=@%s ingen citater blev fundet til denne kanal.
+quotes.error.quotealreadydeleted=@%s dette citat er allerede markeret til fjernelse.
+quotes.success.quoteadded=@%s citat tilføjet og du kan kalde dette citat med ID: %s.
+quotes.success.quoteremovesoft=@%s satte citatet %s til fjernelse.
+quotes.success.quoteremovedhard=@%s citatet %s er blevet fjernet.
+
+# Uptime
+uptime.error.notlive=@%s streameren er ikke live til at få oppetiden.
+uptime.success.message=@%s streameren har været live i %s
