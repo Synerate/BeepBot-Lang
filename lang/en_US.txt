@@ -71,6 +71,14 @@ regulars.error.regself=@%s you can't add or remove yourself as a regular.
 regulars.success.add=@%s successfully added @%s to the regulars list.
 regulars.success.remove=@%s successfully removed @%s from the regulars list.
 
+# Variables
+variables.error.cmdtype=@%s Oops, the supported command types are: set / rm.
+variables.error.namemissing=@%s you need to specify the variable name to set or remove.
+variables.error.nan=@%s you must specify a number.
+variables.error.notfound=@%s that variable does not exist.
+variables.success.set=@%s set variable %s to %s.
+variables.success.remove=@%s removed variable %s.
+
 # Server Query
 server.query.error.querymissing=@%s Oops you need to set the game type for the query.
 server.query.error.servermissing=@%s Oops you need to set the server details to use for the query.
