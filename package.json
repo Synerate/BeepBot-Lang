@@ -2,7 +2,7 @@
   "name": "beepbot-lang",
   "version": "0.0.5",
   "description": "Language files used by BeepBot.",
-  "author": "Kieron Richardson",
+  "author": "ExoZone",
   "license": "MIT",
   "homepage": "https://github.com/ExoZoneDev/BeepBot-Lang",
   "main": "index.js",
@@ -18,6 +18,8 @@
   },
   "keywords": [
     "locale",
-    "lang"
+    "lang",
+    "beepbot",
+    "bot"
   ]
 }

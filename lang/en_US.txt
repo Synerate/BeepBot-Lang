@@ -15,13 +15,14 @@ bot.command.uptime=@%s the streamer has been %s for %s
 bot.command.karaoke=The next Karaoke Party Battle is for: "%s" Link: %s
 
 # Commands
-custom.error.commandmissing=@%s Oops, you need to specify a command name to use for the command.
+custom.error.commandmissing=@%s Oops, you need to specify a command name to use with this command.
 custom.error.internalcommand=@%s this command name is used by a global command. Please choose a different name.
 custom.error.commandfound=@%s this command name is already in use, please try another name.
 custom.error.userlevelhigher=@%s you can't add/edit/remove a command for user level higher than yourself.
 custom.error.messagetooshort=@%s Oops, seems you have not specified a command message.
 custom.error.commandnotfound=@%s Whoops, this command was not found. Are you using the right name?
 custom.error.commandalreadydeleted=@%s this command has been marked for deletion already.
+custom.error.commandmarkeddeleted=@%s Oops, this command is marked for deletion and cannot be modified.
 custom.success.commandadded=@%s successfully added the !%s command.
 custom.success.commandedited=@%s successfully edited the !%s command.
 custom.success.commandmarkeddeleted=@%s successfully marked the !%s command for deletion.
@@ -70,6 +71,13 @@ regulars.error.usernotfound=@%s this user does not exist.
 regulars.error.regself=@%s you can't add or remove yourself as a regular.
 regulars.success.add=@%s successfully added @%s to the regulars list.
 regulars.success.remove=@%s successfully removed @%s from the regulars list.
+
+# Restore
+restore.error.cmdtype=@%s Oops, the supported command types are: cmd / quote.
+restore.error.commandrestored=@%s Oops, this command has already been restored and usable.
+restore.error.quoterestored=@%s Oops, this command has already been restored and usable.
+restore.success.commandrestored=@%s successfully restored the !%s command.
+restore.success.quoterestored=@%s successfully restored the quote %s.
 
 # Variables
 variables.error.cmdtype=@%s Oops, the supported command types are: set / rm.
