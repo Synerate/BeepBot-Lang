@@ -61,7 +61,7 @@ random.message.whatdelay=Beam is love, Beam is life! #WhatDelay
 random.message.angelz=ALL HAIL!! The one and only, almighty Angelz!! Our great and almighty ruler!! Kappa Mess with her feel the wrath!
 random.message.colours=Chat colors are as follows: Red = Staff, Yellow = Dev, White = Caster, Green = Mod, Purple = Pro, Blue = Users.
 random.message.delay=What delay?
-random.message.beepbot=BeepBot is a chat bot designed to work cross platform. It is created by @artdude543 & @alfw & @UnwrittenFun To find out more head on over to https://beepbot.net
+random.message.beepbot=BeepBot is a chat bot designed to work cross-platform created by https://exozone.net. To find out more head on over to https://beepbot.net
 
 # Regulars
 regulars.error.already=@%s this user is already a regular.
@@ -101,7 +101,6 @@ winner.message.end=@%s is the winner! Grats!
 # Quotes
 quotes.error.usermissing=@%s you need to specify the username of whom spoke the quote.
 quotes.error.quotemissing=@%s you need to specify the quote message.
-quotes.error.quoteslengthshort=@%s the quote message specified is too short.
 quotes.error.quotenotfound=@%s this quote does not exist.
 quotes.error.missingquoteid=@%s you are missing the quote ID.
 quotes.error.quotesempty=@%s no quotes were found for this channel.
