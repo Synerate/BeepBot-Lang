@@ -94,6 +94,10 @@ server.query.error.servermissing=@%s Oops you need to set the server details to 
 server.query.error.serveroffline=@%s Oops it seems the game server is offline, please try again later.
 server.query.success.message=%s on %s with %s / %s players.
 
+# Song
+song.lastfm.error.invaliduser=@%s Oops it seems the user %s does not have a LastFM account. Or the username is wrong in the settings. :(
+song.lastfm.success.nowplaying=Currently playing: %s by %s.
+
 # Winner
 winner.message.wait=and the winner is...
 winner.message.end=@%s is the winner! Grats!
