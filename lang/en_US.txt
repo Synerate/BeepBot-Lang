@@ -102,6 +102,12 @@ song.lastfm.success.nowplaying=Currently playing: %s by %s.
 winner.message.wait=and the winner is...
 winner.message.end=@%s is the winner! Grats!
 
+# Patreon
+patreon.success.message=You can also support %s on Patreon: %s
+patreon.success.details.0=Patreon is now on $%s (patrons - average $%s/patreon) - $ to the next goal: %s
+patreon.success.details.1=Patreon is now on $%s (patrons - average $%s/patreon) - Past last goal (Well done!)
+patreon.error.invaliduser=@%s Oops, this user could not be found. Are you sure you are using the right username?
+
 # Quotes
 quotes.error.usermissing=@%s you need to specify the username of whom spoke the quote.
 quotes.error.quotemissing=@%s you need to specify the quote message.
