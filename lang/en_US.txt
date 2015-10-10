@@ -104,9 +104,10 @@ winner.message.end=@%s is the winner! Grats!
 
 # Patreon
 patreon.success.message=You can also support %s on Patreon: %s
-patreon.success.details.0=Patreon is now on $%s (patrons - average $%s/patreon) - $ to the next goal: %s
-patreon.success.details.1=Patreon is now on $%s (patrons - average $%s/patreon) - Past last goal (Well done!)
+patreon.success.details.0=Patreon is now on $%s (%s patrons - average $%s/patreon) - $%s to the next goal: %s
+patreon.success.details.1=Patreon is now on $%s (%s patrons - average $%s/patreon) - Past last goal (Well done!)
 patreon.error.invaliduser=@%s Oops, this user could not be found. Are you sure you are using the right username?
+patreon.error.usernotset=@%s Oops, the patreon user has not been set for this channel. :(
 
 # Quotes
 quotes.error.usermissing=@%s you need to specify the username of whom spoke the quote.
