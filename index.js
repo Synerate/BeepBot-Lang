@@ -1,7 +1,7 @@
 // Get the required modules.
 var fs = require("fs"), os = require("os"), _ = require('lodash');
 
-// Vairable to contain all the loaded locales.
+// Variable to contain all the loaded locales.
 var langFiles = [];
 
 // Read the lang directory to get all the lang files.
