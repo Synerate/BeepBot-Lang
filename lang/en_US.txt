@@ -98,6 +98,7 @@ server.query.success.message=%s on %s with %s / %s players.
 # Song
 song.lastfm.error.invaliduser=@%s Oops it seems the user %s does not have a LastFM account. Or the username is wrong in the settings. :(
 song.lastfm.success.nowplaying=Currently playing: %s by %s.
+song.lastfm.success.nowplaying.details=Currently playing: %s by %s You can find more track information here: %s
 
 # Winner
 winner.message.wait=and the winner is...
