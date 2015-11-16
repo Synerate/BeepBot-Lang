@@ -126,3 +126,7 @@ quotes.success.quoteremovedhard=@%s the quote %s has been removed successfully.
 # Uptime
 uptime.error.notlive=@%s the streamer is not live to get the uptime.
 uptime.success.message=@%s the streamer has been live for %s
+
+# Purge
+purge.success.message=@%s, %s's messages have been purged from chat.
+purge.error.usermissing=@%s you need to specify the username of whom to purge their messages.
