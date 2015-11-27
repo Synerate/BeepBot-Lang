@@ -24,6 +24,7 @@ custom.error.messagetooshort=@%s Oops, seems you have not specified a command me
 custom.error.commandnotfound=@%s Whoops, this command was not found. Are you using the right name?
 custom.error.commandalreadydeleted=@%s this command has been marked for deletion already.
 custom.error.commandmarkeddeleted=@%s Oops, this command is marked for deletion and cannot be modified.
+custom.error.commandfoundhelp=@%s this command name is already in use. Did you want to edit the command instead?
 custom.success.commandadded=@%s successfully added the !%s command.
 custom.success.commandadded.approval=@%s the command !%s has been added. But the streamer has the approval setting enabled. The command will be active when it has been approved.
 custom.success.commandedited=@%s successfully edited the !%s command.
