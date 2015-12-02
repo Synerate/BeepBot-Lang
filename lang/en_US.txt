@@ -44,6 +44,7 @@ protection.wake.unchanged=Protection already enabled.
 # Permit
 permit.error.usermissing=@%s you need to specify the user to permit.
 permit.error.permitfailed=@%s there was an error while trying to permit the user, please contact bot support.
+permit.error.user.self=@%s you can't permit yourself!
 permit.success.message=@%s has been permitted to post a link.
 
 # Raided
