@@ -49,7 +49,6 @@ permit.success.message=@%s has been permitted to post a link.
 
 # Raided
 raided.error.usermissing=@%s you are missing the users name of whom raided.
-raided.success.message=@$touser has just raided us! Please visit their channel and give them a follow to say thanks! $(stream $touser)
 
 # Random
 random.message.bing=@%s Bong!
@@ -132,3 +131,8 @@ uptime.success.message=@%s the streamer has been live for %s
 # Purge
 purge.success.message=@%s, %s's messages have been purged from chat.
 purge.error.usermissing=@%s you need to specify the username of whom to purge their messages.
+
+# D20
+d20.success.message=@%s, you rolled the dice and got %s
+d20.error.args=@%s, you need to specif the args for the D20 dice to be rolled. You can find help here: TBC.
+d20.error.argsinvalid=@%s, Oops the args you have given are not valid. Be sure to follow the guide on how to use the command.
