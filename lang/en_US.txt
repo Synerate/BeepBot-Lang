@@ -35,6 +35,7 @@ custom.success.commanddeleted=@%s successfully removed the !%s command.
 protection.purge.capsoveruse=@%s you just got pwnt for using too many caps!
 protection.purge.linksposting=@%s please don't post links without permission!
 protection.purge.bannedword=@%s you cannot say that here.
+protection.purge.bannedsymbols=@%s you cannot use those symbols here.
 protection.purge.symbolusage=@%s please don't spam symbols in chat.
 protection.sleep.success=Protection disabled.
 protection.sleep.unchanged=Protection already disabled.
