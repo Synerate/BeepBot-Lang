@@ -37,6 +37,7 @@ protection.purge.linksposting=@%s please don't post links without permission!
 protection.purge.bannedword=@%s you cannot say that here.
 protection.purge.bannedsymbols=@%s you cannot use those symbols here.
 protection.purge.symbolusage=@%s please don't spam symbols in chat.
+protection.purge.emotesoveruse=@%s please don't spam emotes in chat.
 protection.sleep.success=Protection disabled.
 protection.sleep.unchanged=Protection already disabled.
 protection.wake.success=Protection enabled.
@@ -139,3 +140,15 @@ purge.error.usermissing=@%s you need to specify the username of whom to purge th
 d20.success.message=@%s, you rolled the dice and got %s
 d20.error.args=@%s, you need to specif the args for the D20 dice to be rolled. You can find help here: TBC.
 d20.error.argsinvalid=@%s, Oops the args you have given are not valid. Be sure to follow the guide on how to use the command.
+
+# Alias
+alias.error.cmdtype=@%s Oops, the supported command types are: add / rm.
+alias.error.namemissing=@%s you need to specify the alias name to use.
+alias.error.commandmissing=@%s you need to specify the command name to alias with.
+alias.error.commandnotfound=@%s Oops, we can't alias to a command which does not exists.
+alias.error.aliasfound=@%s Whoops it seems you already has an alias with this name.
+alias.error.aliascustomfound=@%s you can't have an alias named the same as a custom command.
+alias.error.aliasnotfound=@%s Oops it seems this alias does not exist.
+alias.error.aliasdupe=@%s you can't have an alias pointing to another alias.
+alias.success.aliasadded=@%s the alias "%s" has been added for the command "%s".
+alias.success.aliasremoved=@%s the alias %s has been removed.
