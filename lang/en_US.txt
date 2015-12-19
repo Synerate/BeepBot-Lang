@@ -105,6 +105,7 @@ song.lastfm.success.nowplaying=Currently playing: %s by %s.
 song.lastfm.success.nowplaying.details=Currently playing: %s by %s You can find more track information here: %s
 
 # Winner
+winner.error.nousersfound=@%s Oops I could not find any users to add to the draw.
 winner.message.wait=and the winner is...
 winner.message.end=@%s is the winner! Grats!
 
@@ -124,11 +125,13 @@ quotes.error.quotenotfounduser=@%s not quotes were found for this user.
 quotes.error.missingquoteid=@%s you are missing the quote ID.
 quotes.error.quotesempty=@%s no quotes were found for this channel.
 quotes.error.quotealreadydeleted=@%s this quote has been marked for deletion already.
+quotes.error.quotedisabled=@%s Oops this quote is disabled for retrieval.
 quotes.success.quoteadded=@%s the quote has been successfully added you can call the quote with the ID: %s.
 quotes.success.quoteremovesoft=@%s successfully marked the quote %s for deletion.
 quotes.success.quoteremovedhard=@%s the quote %s has been removed successfully.
 
 # Uptime
+uptime.error.timestampmissing=@%s there was an error getting the starting time for the stream.
 uptime.error.notlive=@%s the streamer is not live to get the uptime.
 uptime.success.message=@%s the streamer has been live for %s
 
