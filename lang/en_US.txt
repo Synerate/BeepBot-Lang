@@ -155,3 +155,8 @@ alias.error.aliasnotfound=@%s Oops it seems this alias does not exist.
 alias.error.aliasdupe=@%s you can't have an alias pointing to another alias.
 alias.success.aliasadded=@%s the alias "%s" has been added for the command "%s".
 alias.success.aliasremoved=@%s the alias %s has been removed.
+
+# Purge
+purge.error.usermissing=@%s Oops, you need to specify the user to purge from the chat.
+purge.error.nomessagesfound=@%s Oops we could not find any messages for this user, did you type the name in correctly; or does the user have a mod+ user level?
+purge.success.message=%s's messages has been removed from the chat.
