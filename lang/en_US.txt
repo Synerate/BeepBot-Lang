@@ -136,8 +136,10 @@ uptime.error.notlive=@%s the streamer is not live to get the uptime.
 uptime.success.message=@%s the streamer has been live for %s
 
 # Purge
-purge.success.message=@%s, %s's messages have been purged from chat.
-purge.error.usermissing=@%s you need to specify the username of whom to purge their messages.
+purge.error.usermissing=@%s Oops, you need to specify the user to purge from the chat.
+purge.error.nomessagesfound=@%s Oops we could not find any messages for this user, did you type the name in correctly; or does the user have a mod+ user level?
+purge.error.sameuser=@%s Oops, you can't purge yourself.
+purge.success.message=%s's messages has been removed from the chat.
 
 # D20
 d20.success.message=@%s, you rolled the dice and got %s
@@ -156,7 +158,9 @@ alias.error.aliasdupe=@%s you can't have an alias pointing to another alias.
 alias.success.aliasadded=@%s the alias "%s" has been added for the command "%s".
 alias.success.aliasremoved=@%s the alias %s has been removed.
 
-# Purge
-purge.error.usermissing=@%s Oops, you need to specify the user to purge from the chat.
-purge.error.nomessagesfound=@%s Oops we could not find any messages for this user, did you type the name in correctly; or does the user have a mod+ user level?
-purge.success.message=%s's messages has been removed from the chat.
+# Linked
+linked.error.generic=@%s Oops something wrong while changing the setting.
+linked.success.client.enabled=@%s the linked chat for this platform has been enabled.
+linked.success.client.disabled=@%s the linked chat for this platform has been disabled.
+linked.success.global.enabled=@%s chats are now linked.
+linked.success.global.disabled=@%s chats are no longer linked.
