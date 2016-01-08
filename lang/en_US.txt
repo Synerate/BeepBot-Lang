@@ -105,9 +105,10 @@ song.lastfm.success.nowplaying=Currently playing: %s by %s.
 song.lastfm.success.nowplaying.details=Currently playing: %s by %s You can find more track information here: %s
 
 # Winner
-winner.error.nousersfound=@%s Oops I could not find any users to add to the draw.
-winner.message.wait=and the winner is...
-winner.message.end=@%s is the winner! Grats!
+winner.error.core=@%s Oops it seems some time was lost in the space time continuum. Could you call for help about this issue?
+winner.error.nousersfound=@%s Oops I could not find any users to run the draw. This could be for many reasons. Please try the command again :)
+winner.message.wait=and the winner is... (drum roll please)
+winner.message.end=@%s is the winner! Grats! (You should claim your prize or something)
 
 # Patreon
 patreon.success.message=You can also support %s on Patreon: %s
