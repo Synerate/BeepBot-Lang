@@ -59,6 +59,7 @@ random.message.ding=@%s Dong!
 random.message.king=@%s Kong!
 random.message.ping=@%s Pong!
 random.message.ting=@%s Tong!
+random.message.beep=@%s Boop!
 random.message.matt=Matt is love, Matt is life! <3
 random.message.connor=Your soul has been stolen.
 random.message.james=Wheereres my suppppper suittttt!
