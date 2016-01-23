@@ -1,24 +1,18 @@
-"use strict";
-
-const fs = require("fs");
-const os = require("os");
-
-// Variable to contain all the loaded locales.
-let langFiles = [];
-// Read the lang directory to get all the lang files.
-let list = fs.readdirSync(__dirname + '/lang/');
-
-// Loop through all the lang files to process them so they can be used.
-for (let i = 0; i < list.length; i++) {
-  let locale = list[i].replace('.txt', '');
-  langFiles[locale] = {};
-  fs.readFileSync(__dirname + '/lang/' + list[i]).toString('utf8').split(os.EOL).forEach(function (line) {
-    line = line.trim();
-    if (line.length > 0 && line.charAt(0) !== '#') {
-      let chunk = line.split('=');
-      langFiles[locale][chunk[0]] = chunk.slice(1).join('=');
+var fs = require("fs");
+var os = require("os");
+var langFiles = {};
+exports.langFiles = langFiles;
+var listing = fs.readdirSync(__dirname + "/lang/");
+for (var i = 0, length_1 = listing.length; i < length_1; i++) {
+    var locale = listing[i].replace(".txt", "");
+    langFiles[locale] = {};
+    var lines = fs.readFileSync(__dirname + "/lang/" + listing[i]).toString("utf8").split(os.EOL);
+    for (var j = 0, lenj = lines.length; j < lenj; j++) {
+        var line = lines[j].trim();
+        if (line.length > 0 && line.charAt(0) !== "#") {
+            var chunk = line.split("=");
+            langFiles[locale][chunk[0]] = chunk.slice(1).join("=");
+        }
     }
-  });
 }
-
-module.exports = langFiles;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJzcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsSUFBWSxFQUFFLFdBQU0sSUFBSSxDQUFDLENBQUE7QUFDekIsSUFBWSxFQUFFLFdBQU0sSUFBSSxDQUFDLENBQUE7QUFFekIsSUFBSSxTQUFTLEdBQWUsRUFBRTtBQXNCdEIsaUJBQVMsYUF0QmM7QUFDL0IsSUFBSSxPQUFPLEdBQUcsRUFBRSxDQUFDLFdBQVcsQ0FBQyxTQUFTLEdBQUcsUUFBUSxDQUFDLENBQUM7QUFFbkQsR0FBRyxDQUFDLENBQUMsR0FBRyxDQUFDLENBQUMsR0FBRyxDQUFDLEVBQUUsUUFBTSxHQUFHLE9BQU8sQ0FBQyxNQUFNLEVBQUUsQ0FBQyxHQUFHLFFBQU0sRUFBRSxDQUFDLEVBQUUsRUFBRSxDQUFDO0lBQ3pELElBQUksTUFBTSxHQUFHLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQyxPQUFPLENBQUMsTUFBTSxFQUFFLEVBQUUsQ0FBQyxDQUFDO0lBQzVDLFNBQVMsQ0FBQyxNQUFNLENBQUMsR0FBRyxFQUFFLENBQUM7SUFDdkIsSUFBSSxLQUFLLEdBQUcsRUFBRSxDQUFDLFlBQVksQ0FBQyxTQUFTLEdBQUcsUUFBUSxHQUFHLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDLFFBQVEsQ0FBQyxNQUFNLENBQUMsQ0FBQyxLQUFLLENBQUMsRUFBRSxDQUFDLEdBQUcsQ0FBQyxDQUFDO0lBQzlGLEdBQUcsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxDQUFDLEdBQUcsQ0FBQyxFQUFFLElBQUksR0FBRyxLQUFLLENBQUMsTUFBTSxFQUFFLENBQUMsR0FBRyxJQUFJLEVBQUUsQ0FBQyxFQUFFLEVBQUUsQ0FBQztRQUNuRCxJQUFJLElBQUksR0FBRyxLQUFLLENBQUMsQ0FBQyxDQUFDLENBQUMsSUFBSSxFQUFFLENBQUM7UUFDM0IsRUFBRSxDQUFDLENBQUMsSUFBSSxDQUFDLE1BQU0sR0FBRyxDQUFDLElBQUksSUFBSSxDQUFDLE1BQU0sQ0FBQyxDQUFDLENBQUMsS0FBSyxHQUFHLENBQUMsQ0FBQyxDQUFDO1lBQzlDLElBQUksS0FBSyxHQUFHLElBQUksQ0FBQyxLQUFLLENBQUMsR0FBRyxDQUFDLENBQUM7WUFDNUIsU0FBUyxDQUFDLE1BQU0sQ0FBQyxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUMsQ0FBQyxHQUFHLEtBQUssQ0FBQyxLQUFLLENBQUMsQ0FBQyxDQUFDLENBQUMsSUFBSSxDQUFDLEdBQUcsQ0FBQyxDQUFDO1FBQ3pELENBQUM7SUFDSCxDQUFDO0FBQ0gsQ0FBQztBQVFrQiJ9
