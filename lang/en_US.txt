@@ -1,36 +1,125 @@
-# Generic
-generic.error.redis=There was an error while processing your request. Contact support for assistance.
-generic.error.notlive=Oops! The streamer is not live to perform this action.
-generic.error.databasesave=Error saving something to the database.
-generic.error.database=There was an error while processing your request. Contact support for assistance.
-generic.error.command.notsupported=@%s Oops! This command is not currently supported for this platform.
+# GENERIC LANG
 
-# Bot Commands
-bot.command.help=You can find help for the bot here: %s
-bot.command.version=(Core) %s (Client) %s
-bot.command.status=(Core) Uptime: %s, RAM: %s
-bot.command.commands=@%s find the channel commands here: https://beepbot.net/public/%s
-bot.command.followers=%s has %s following users.
-bot.command.rank=%s is currently %s on the GamerLabs Beam Leaderboard!
-bot.command.uptime=@%s the streamer has been %s for %s
-bot.command.karaoke=The next Karaoke Party Battle is for: "%s" Link: %s
+# Generic replies
+command.generic.reply=%s
+command.generic.reply.user=@%s, %s
+command.generic.database.failure=@%s Oops there was an error handling the command. Please alert support for help.
 
-# Commands
-custom.error.commandmissing=@%s Oops, you need to specify a command name to use with this command.
-custom.error.internalcommand=@%s this command name is used by a global command. Please choose a different name.
-custom.error.commandfound=@%s this command name is already in use, please try another name.
-custom.error.userlevelhigher=@%s you can't add/edit/remove a command for user level higher than yourself.
-custom.error.commandshort=@%s you need to specify a command name which is more than 1 char.
-custom.error.messagetooshort=@%s Oops, seems you have not specified a command message. (Min: 3)
-custom.error.commandnotfound=@%s Whoops, this command was not found. Are you using the right name?
-custom.error.commandalreadydeleted=@%s this command has been marked for deletion already.
-custom.error.commandmarkeddeleted=@%s Oops, this command is marked for deletion and cannot be modified.
-custom.error.commandfoundhelp=@%s this command name is already in use. Did you want to edit the command instead?
-custom.success.commandadded=@%s successfully added the !%s command.
-custom.success.commandadded.approval=@%s the command !%s has been added. But the streamer has the approval setting enabled. The command will be active when it has been approved.
-custom.success.commandedited=@%s successfully edited the !%s command.
-custom.success.commandmarkeddeleted=@%s successfully marked the !%s command for deletion.
-custom.success.commanddeleted=@%s successfully removed the !%s command.
+# Generic command executions.
+command.generic.execution.level.low=@%s Oops your user level is not high enough for this operation.
+command.generic.execution.string.empty=@%s Oops the argument for the %s is missing.
+command.generic.execution.string.short=@%s Oops the argument for the %s is too short.
+command.generic.execution.string.long=@%s Oops the argument for the %s is too long.
+command.generic.execution.number.invalid=@%s Oops the argument `%s` is a not valid number.
+command.generic.execution.valid=@%s Oops the param `%s` is not valid. Valid options are: %s
+command.generic.execution.level.low=@%s Oops you don't have the required level to perform this operation.
+command.generic.execution.not.overridable=@%s Oops the command `%s` is not allowed to be overridden.
+command.generic.execution.force.flag.invalid=@%s Oops the allowed flags are -f -F.
+command.generic.execution.not.found=@%s Oops the command `%s` does not exist.
+
+# COMMANDS LANG
+
+# Addcom
+command.addcom.success.added.approval=@%s the command %s%s has been added. But the streamer has the approval setting enabled. The command will be active when it has been approved.
+command.addcom.success.added=@%s successfully added the %s%s command.
+command.addcom.error.found=@%s the command %s%s is already in use. Please try another name.
+command.addcom.error.message.short=@%s Oops the argument for the command message is too short.
+
+# Alias
+command.alias.error.alias.found=@%s Oops it seems you already has an alias with this name.
+command.alias.error.dupe=@%s you can't have an alias pointing to another alias.
+command.alias.error.command.found=@%s you can't have an alias named the same as a custom command.
+command.alias.error.command.not.found=@%s Oops, we can't alias to a command which does not exists.
+command.alias.error.name.not.found=@%s Oops it seems the alias `%s` does not exist.
+command.alias.success.added=@%s the command `%s` has been aliased to `%s`.
+command.alias.success.removed=@%s the alias `%s` has been removed.
+command.alias.success.edit=@%s the alias `%s` is now linked to `%s`.
+
+# D20
+command.d20.error.invalid=@%s Oops the dice you threw was lost in play. Can you check your dice again?
+command.d20.success.roll=@%s, you rolled the dice and got %s.
+
+# Delcom
+command.delcom.error.command.deleted=@%s Oops the command `%s` has already been marked for deletion.
+command.delcom.success.deleted=@%s the command `%s` has been deleted.
+command.delcom.success.deleted.marked=@%s the command `%s` has been marked for deletion.
+
+# Delquote
+command.delquote.error.id.invalid=@%s the quote Id `%s` is not a valid number; or is less that zero.
+command.delquote.error.id.not.found=@%s no quote with the Id `%s` was found.
+command.delquote.error.id.marked.deleted=@%s the quote `%s` is already marked for deletion.
+command.delquote.success.deleted=@%s the quote `%s` has been removed successfully.
+command.delquote.success.deleted.marked=@%s successfully marked the quote `%s` for deletion.
+
+# Delcom
+command.delcom.error.deleted.marked=@%s you can't modify a command which is marked for deletion.
+
+# Editcom
+command.editcom.success.edited=@%s the command `%s` has been updated.
+
+# Patreon
+command.patreon.success.standard=You can also support %s's on Patreon: %s
+command.patreon.success.details.0=Patreon is now on $%s (%s patrons - average $%s/patreon) - $%s to the next goal: %s
+command.patreon.success.details.1=Patreon is now on $%s (%s patrons - average $%s/patreon) - Past last goal (Well done!)
+command.patreon.error.user.not.set=@%s Oops, the patreon user has not been set for this channel.
+
+# Permit
+command.permit.error.user.self=@%s you can't permit yourself!
+command.permit.success=@%s has been permitted to post a link.
+
+# Purge
+command.purge.error.user.self=@%s you can't purge yourself!
+command.purge.error.user.no.messages=@%s Oops no messages were found or the user is a mod or above user.
+command.purge.success.message=%s's messages has been removed from the chat.
+
+# Quotes
+command.quote.error.empty=@%s no quotes were found for this channel.
+command.quote.error.user.not.found=@%s not quotes were found for this user.
+command.quote.error.id.not.found=@%s no quote with this Id was found.
+
+# Random
+command.random.bing=@%s Bong!
+command.random.ding=@%s Dong!
+command.random.king=@%s Kong!
+command.random.ping=@%s Pong!
+command.random.ting=@%s Tong!
+command.random.beep=@%s Boop!
+command.random.beepbot=BeepBot is a chat bot designed to work cross-platform created by https://exozone.net. To find out more head on over to https://beepbot.net
+
+# Regulars
+command.regulars.error.add.user.reg=@%s this user is already a regular.
+command.regulars.error.delete.user.not.reg=@%s this user is not a regular.
+command.regulars.error.user.not.found=@%s the user `%s` was not found to add as a regular.
+command.regulars.success.message.add=@%s successfully added @%s to the regulars list.
+command.regulars.success.message.remove=@%s successfully removed @%s from the regulars list.
+
+# Restore
+command.restore.error.command.restored=@%s Oops, the command `%s` has already been restored.
+command.restore.error.quote.restored=@%s Oops, the quote `%s` has already been restored.
+command.restore.success.command.message=@%s successfully restored the %s%s command.
+command.restore.success.quote.message=@%s successfully restored the quote %s.
+
+# Status
+core.command.status.reply=(%s) Uptime: %s, RAM: %s
+
+# Uptime
+command.uptime.error.parse=@% Oops there was an error checking the uptime.
+command.uptime.error.not.live=@%s the streamer is not live to get the uptime.
+command.uptime.success.message=@%s the streamer has been live for %s
+
+# Variables
+command.variables.error.nan=@%s the value `%s` is not valid number.
+command.variables.error.not.found=@%s the variable `%s` does not exist.
+command.variables.success.set=@%s set variable %s to %s.
+command.variables.success.remove=@%s removed variable %s.
+
+# Winner
+command.winner.error.core=@%s Oops it seems some time was lost in the space time continuum. NASA have been notified about this error.
+command.winner.error.no.users=@%s Oops I could not find any users to run the draw. This could be for many reasons. Please try the command again :)
+command.winner.message.wait=and the winner is... (drum roll please)
+command.winner.message.end=@%s is the winner! Grats! (You should claim your prize or something)
+
+# PROTECTION LANG
 
 # Protection
 protection.purge.capsoveruse=@%s you just got pwnt for using too many caps!
@@ -44,122 +133,7 @@ protection.sleep.unchanged=Protection already disabled.
 protection.wake.success=Protection enabled.
 protection.wake.unchanged=Protection already enabled.
 
-# Permit
-permit.error.usermissing=@%s you need to specify the user to permit.
-permit.error.permitfailed=@%s there was an error while trying to permit the user, please contact bot support.
-permit.error.user.self=@%s you can't permit yourself!
-permit.success.message=@%s has been permitted to post a link.
-
-# Raided
-raided.error.usermissing=@%s you are missing the users name of whom raided.
-
-# Random
-random.message.bing=@%s Bong!
-random.message.ding=@%s Dong!
-random.message.king=@%s Kong!
-random.message.ping=@%s Pong!
-random.message.ting=@%s Tong!
-random.message.beep=@%s Boop!
-random.message.matt=Matt is love, Matt is life! <3
-random.message.connor=Your soul has been stolen.
-random.message.james=Wheereres my suppppper suittttt!
-random.message.gigonaut=Garbage in garbage out!
-random.message.whatdelay=Beam is love, Beam is life! #WhatDelay
-random.message.angelz=ALL HAIL!! The one and only, almighty Angelz!! Our great and almighty ruler!! Kappa Mess with her feel the wrath!
-random.message.colours=Chat colors are as follows: Red = Staff, Yellow = Dev, White = Caster, Green = Mod, Purple = Pro, Blue = Users.
-random.message.delay=What delay?
-random.message.beepbot=BeepBot is a chat bot designed to work cross-platform created by https://exozone.net. To find out more head on over to https://beepbot.net
-
-# Regulars
-regulars.error.already=@%s this user is already a regular.
-regulars.error.notreg=@%s this user is not a regular.
-regulars.error.cmdtype=@%s Oops, the supported command types are: add / rm.
-regulars.error.usermissing=@%s you need to specify the username of the regular to add or remove.
-regulars.error.usernotfound=@%s this user does not exist.
-regulars.error.regself=@%s you can't add or remove yourself as a regular.
-regulars.success.add=@%s successfully added @%s to the regulars list.
-regulars.success.remove=@%s successfully removed @%s from the regulars list.
-
-# Restore
-restore.error.cmdtype=@%s Oops, the supported command types are: cmd / quote.
-restore.error.commandrestored=@%s Oops, this command has already been restored and usable.
-restore.error.quoterestored=@%s Oops, this command has already been restored and usable.
-restore.success.commandrestored=@%s successfully restored the !%s command.
-restore.success.quoterestored=@%s successfully restored the quote %s.
-
-# Variables
-variables.error.cmdtype=@%s Oops, the supported command types are: set / rm.
-variables.error.namemissing=@%s you need to specify the variable name to set or remove.
-variables.error.nan=@%s you must specify a number.
-variables.error.notfound=@%s that variable does not exist.
-variables.success.set=@%s set variable %s to %s.
-variables.success.remove=@%s removed variable %s.
-
-# Server Query
-server.query.error.querymissing=@%s Oops you need to set the game type for the query.
-server.query.error.servermissing=@%s Oops you need to set the server details to use for the query.
-server.query.error.serveroffline=@%s Oops it seems the game server is offline, please try again later.
-server.query.success.message=%s on %s with %s / %s players.
-
-# Song
-song.lastfm.error.invaliduser=@%s Oops it seems the user %s does not have a LastFM account. Or the username is wrong in the settings. :(
-song.lastfm.success.nowplaying=Currently playing: %s by %s.
-song.lastfm.success.nowplaying.details=Currently playing: %s by %s You can find more track information here: %s
-
-# Winner
-winner.error.core=@%s Oops it seems some time was lost in the space time continuum. Could you call for help about this issue?
-winner.error.nousersfound=@%s Oops I could not find any users to run the draw. This could be for many reasons. Please try the command again :)
-winner.message.wait=and the winner is... (drum roll please)
-winner.message.end=@%s is the winner! Grats! (You should claim your prize or something)
-
-# Patreon
-patreon.success.message=You can also support %s on Patreon: %s
-patreon.success.details.0=Patreon is now on $%s (%s patrons - average $%s/patreon) - $%s to the next goal: %s
-patreon.success.details.1=Patreon is now on $%s (%s patrons - average $%s/patreon) - Past last goal (Well done!)
-patreon.error.invaliduser=@%s Oops, this user could not be found. Are you sure you are using the right username?
-patreon.error.usernotset=@%s Oops, the patreon user has not been set for this channel. :(
-
-# Quotes
-quotes.error.usermissing=@%s you need to specify the username of whom spoke the quote.
-quotes.error.quotemissing=@%s you need to specify the quote message.
-quotes.error.quotenotfound=@%s this quote does not exist.
-quotes.error.quotenotfoundid=@%s no quote with this ID was found.
-quotes.error.quotenotfounduser=@%s not quotes were found for this user.
-quotes.error.missingquoteid=@%s you are missing the quote ID.
-quotes.error.quotesempty=@%s no quotes were found for this channel.
-quotes.error.quotealreadydeleted=@%s this quote has been marked for deletion already.
-quotes.error.quotedisabled=@%s Oops this quote is disabled for retrieval.
-quotes.success.quoteadded=@%s the quote has been successfully added you can call the quote with the ID: %s.
-quotes.success.quoteremovesoft=@%s successfully marked the quote %s for deletion.
-quotes.success.quoteremovedhard=@%s the quote %s has been removed successfully.
-
-# Uptime
-uptime.error.timestampmissing=@%s there was an error getting the starting time for the stream.
-uptime.error.notlive=@%s the streamer is not live to get the uptime.
-uptime.success.message=@%s the streamer has been live for %s
-
-# Purge
-purge.error.usermissing=@%s Oops, you need to specify the user to purge from the chat.
-purge.error.nomessagesfound=@%s Oops we could not find any messages for this user, did you type the name in correctly; or does the user have a mod+ user level?
-purge.error.sameuser=@%s Oops, you can't purge yourself.
-purge.success.message=%s's messages has been removed from the chat.
-
-# D20
-d20.success.message=@%s, you rolled the dice and got %s
-d20.error.args=@%s, you need to specif the args for the D20 dice to be rolled. You can find help here: TBC.
-d20.error.argsinvalid=@%s, Oops the args you have given are not valid. Be sure to follow the guide on how to use the command.
-
-# Alias
-alias.error.cmdtype=@%s Oops, the supported command types are: add / rm.
-alias.error.namemissing=@%s you need to specify the alias name to use.
-alias.error.commandmissing=@%s you need to specify the command name to alias with.
-alias.error.commandnotfound=@%s Oops, we can't alias to a command which does not exists.
-alias.error.aliasfound=@%s Whoops it seems you already has an alias with this name.
-alias.error.aliascustomfound=@%s you can't have an alias named the same as a custom command.
-alias.error.aliasnotfound=@%s Oops it seems this alias does not exist.
-alias.error.aliasdupe=@%s you can't have an alias pointing to another alias.
-alias.success.aliasadded=@%s the alias "%s" has been added for the command "%s".
-alias.success.aliasremoved=@%s the alias %s has been removed.
+# OLD LANG (TO BE PORTED TO THE NEW SYSTEM)
 
 # Linked
 linked.error.generic=@%s Oops something wrong while changing the setting.
