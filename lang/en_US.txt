@@ -57,6 +57,11 @@ command.delcom.error.deleted.marked=@%s you can't modify a command which is mark
 # Editcom
 command.editcom.success.edited=@%s the command `%s` has been updated.
 
+# Linked
+command.linked.client.state=@%s the linked chat for this platform has been %s.
+command.linked.state=@%s linked chats are now %s.
+command.linked.prefixed=@%s prefixed linked chat is now %s.
+
 # Patreon
 command.patreon.success.standard=You can also support %s's on Patreon: %s
 command.patreon.success.details.0=Patreon is now on $%s (%s patrons - average $%s/patreon) - $%s to the next goal: %s
@@ -121,7 +126,6 @@ command.winner.message.end=@%s is the winner! Grats! (You should claim your priz
 
 # PROTECTION LANG
 
-# Protection
 protection.purge.capsoveruse=@%s you just got pwnt for using too many caps!
 protection.purge.linksposting=@%s please don't post links without permission!
 protection.purge.bannedword=@%s you cannot say that here.
@@ -132,12 +136,3 @@ protection.sleep.success=Protection disabled.
 protection.sleep.unchanged=Protection already disabled.
 protection.wake.success=Protection enabled.
 protection.wake.unchanged=Protection already enabled.
-
-# OLD LANG (TO BE PORTED TO THE NEW SYSTEM)
-
-# Linked
-linked.error.generic=@%s Oops something wrong while changing the setting.
-linked.success.client.enabled=@%s the linked chat for this platform has been enabled.
-linked.success.client.disabled=@%s the linked chat for this platform has been disabled.
-linked.success.global.enabled=@%s chats are now linked.
-linked.success.global.disabled=@%s chats are no longer linked.
