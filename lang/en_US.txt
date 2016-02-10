@@ -3,7 +3,7 @@
 # Generic replies
 command.generic.reply=%s
 command.generic.reply.user=@%s, %s
-command.generic.database.failure=@%s Oops there was an error handling the command. Please alert support for help.
+command.generic.failure=@%s Oops there was an error handling the command. Please alert support for help.
 
 # Generic command executions.
 command.generic.execution.level.low=@%s Oops your user level is not high enough for this operation.
@@ -16,6 +16,7 @@ command.generic.execution.level.low=@%s Oops you don't have the required level t
 command.generic.execution.not.overridable=@%s Oops the command `%s` is not allowed to be overridden.
 command.generic.execution.force.flag.invalid=@%s Oops the allowed flags are -f -F.
 command.generic.execution.not.found=@%s Oops the command `%s` does not exist.
+command.generic.execution.alias.linked=@%s Oops the command `%s` is used as an alias.
 
 # COMMANDS LANG
 
@@ -63,7 +64,7 @@ command.linked.state=@%s linked chats are now %s.
 command.linked.prefixed=@%s prefixed linked chat is now %s.
 
 # Patreon
-command.patreon.success.standard=You can also support %s's on Patreon: %s
+command.patreon.success.standard=You can also support %s on Patreon: %s
 command.patreon.success.details.0=Patreon is now on $%s (%s patrons - average $%s/patreon) - $%s to the next goal: %s
 command.patreon.success.details.1=Patreon is now on $%s (%s patrons - average $%s/patreon) - Past last goal (Well done!)
 command.patreon.error.user.not.set=@%s Oops, the patreon user has not been set for this channel.
@@ -108,7 +109,7 @@ command.restore.success.quote.message=@%s successfully restored the quote %s.
 core.command.status.reply=(%s) Uptime: %s, RAM: %s
 
 # Uptime
-command.uptime.error.parse=@% Oops there was an error checking the uptime.
+command.uptime.error.parse=@%s Oops there was an error checking the uptime.
 command.uptime.error.not.live=@%s the streamer is not live to get the uptime.
 command.uptime.success.message=@%s the streamer has been live for %s
 
