@@ -61,6 +61,10 @@ command.delcom.error.deleted.marked=@%s you can't modify a command which is mark
 # Editcom
 command.editcom.success.edited=@%s the command `%s` has been updated.
 
+# Editul
+command.editul.error.invalid=@%s the user level `%s` is not valid.
+command.editul.success.edited=@%s the command `%s` user's level has been changed to %s.
+
 # Linked
 command.linked.client.state=@%s the linked chat for this platform has been %s.
 command.linked.state=@%s linked chats are now %s.
@@ -136,6 +140,8 @@ protection.purge.bannedword=@%s you cannot say that here.
 protection.purge.bannedsymbols=@%s you cannot use those symbols here.
 protection.purge.symbolusage=@%s please don't spam symbols in chat.
 protection.purge.emotesoveruse=@%s please don't spam emotes in chat.
+protection.purge.essay=@%s, Geez man, were you typing a novel there? Try to keep the messages shorter please!
+
 protection.sleep.success=@%s protection is now disabled.
 protection.sleep.unchanged=@%s protection is already disabled.
 protection.wake.success=@%s protection is now enabled.
