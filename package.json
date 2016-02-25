@@ -7,7 +7,7 @@
   "homepage": "https://github.com/ExoZoneDev/BeepBot-Lang",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^3.10.0"
+    "lodash": "^4.5.1"
   },
   "bugs": {
     "url": "https://github.com/ExoZoneDev/BeepBot-Lang/issues"
