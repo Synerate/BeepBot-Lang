@@ -141,6 +141,7 @@ protection.purge.bannedsymbols=@%s you cannot use those symbols here.
 protection.purge.symbolusage=@%s please don't spam symbols in chat.
 protection.purge.emotesoveruse=@%s please don't spam emotes in chat.
 protection.purge.essay=@%s, Geez man, were you typing a novel there? Try to keep the messages shorter please!
+protection.user.banned=@%s, that's it man you've had enough chances. Time to take a long time out!
 
 protection.sleep.success=@%s protection is now disabled.
 protection.sleep.unchanged=@%s protection is already disabled.
