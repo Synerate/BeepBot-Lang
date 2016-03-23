@@ -131,6 +131,7 @@ command.winner.error.core=@%s Oops it seems some time was lost in the space time
 command.winner.error.no.users=@%s Oops I could not find any users to run the draw. This could be for many reasons. Please try the command again :)
 command.winner.message.wait=and the winner is... (drum roll please)
 command.winner.message.end=@%s is the winner! Grats! (You should claim your prize or something)
+command.winner.message.end.all=@%s is the winner, over on %s! Grats! (You should claim your prize or something)
 
 # PROTECTION LANG
 
