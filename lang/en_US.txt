@@ -93,9 +93,11 @@ command.quote.error.id.not.found=@%s no quote with this Id was found.
 
 # Raffle
 command.raffle.error.active=@%s oops their is already a raffle running.
+command.raffle.error.pick=Oops there was an error picking a winner for the raffle. My owner has been notified about this.
 command.raffle.success.start=@%s has started a raffle. Type something into chat to get entered.
 command.raffle.success.start.word=@%s has started a raffle. Type "%s" into chat to get entered.
 command.raffle.success.end=@%s has ended the raffle. Picking the winner now...
+command.raffle.success.force.end=@%s the raffle has been forced to end.
 command.raffle.success.winner=@%s is the winner of the raffle! Grats!
 
 # Random
