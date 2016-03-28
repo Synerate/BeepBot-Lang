@@ -16,7 +16,7 @@ command.generic.execution.level.low=@%s Oops you don't have the required level t
 command.generic.execution.not.overridable=@%s Oops the command `%s` is not allowed to be overridden.
 command.generic.execution.force.flag.invalid=@%s Oops the allowed flags are -f -F.
 command.generic.execution.not.found=@%s Oops the command `%s` does not exist.
-command.generic.execution.alias.linked=@%s Oops the command `%s` is used as an alias.
+command.generic.execution.alias.linked=@%s Oops the command `%s%s` is used as an alias.
 
 # COMMANDS LANG
 
@@ -44,9 +44,10 @@ command.d20.error.invalid=@%s Oops the dice you threw was lost in play. Can you 
 command.d20.success.roll=@%s, you rolled the dice and got %s.
 
 # Delcom
-command.delcom.error.command.deleted=@%s Oops the command `%s` has already been marked for deletion.
-command.delcom.success.deleted=@%s the command `%s` has been deleted.
-command.delcom.success.deleted.marked=@%s the command `%s` has been marked for deletion.
+command.delcom.error.command.deleted=@%s Oops the command `%s%s` has already been marked for deletion.
+command.delcom.success.deleted=@%s the command `%s%s` has been deleted.
+command.delcom.success.deleted.marked=@%s the command `%s%s` has been marked for deletion.
+command.delcom.error.deleted.marked=@%s you can't modify a command which is marked for deletion.
 
 # Delquote
 command.delquote.error.id.invalid=@%s the quote Id `%s` is not a valid number; or is less that zero.
@@ -55,15 +56,15 @@ command.delquote.error.id.marked.deleted=@%s the quote `%s` is already marked fo
 command.delquote.success.deleted=@%s the quote `%s` has been removed successfully.
 command.delquote.success.deleted.marked=@%s successfully marked the quote `%s` for deletion.
 
-# Delcom
-command.delcom.error.deleted.marked=@%s you can't modify a command which is marked for deletion.
+# Dye
+command.dye.success=Do you even %s?
 
 # Editcom
-command.editcom.success.edited=@%s the command `%s` has been updated.
+command.editcom.success.edited=@%s the command `%s%s` has been updated.
 
 # Editul
 command.editul.error.invalid=@%s the user level `%s` is not valid.
-command.editul.success.edited=@%s the command `%s` user's level has been changed to %s.
+command.editul.success.edited=@%s the command `%s%s` user's level has been changed to %s.
 
 # Linked
 command.linked.client.state=@%s the linked chat for this platform has been %s.
@@ -90,6 +91,13 @@ command.quote.error.empty=@%s no quotes were found for this channel.
 command.quote.error.user.not.found=@%s not quotes were found for this user.
 command.quote.error.id.not.found=@%s no quote with this Id was found.
 
+# Raffle
+command.raffle.error.active=@%s oops their is already a raffle running.
+command.raffle.success.start=@%s has started a raffle. Type something into chat to get entered.
+command.raffle.success.start.word=@%s has started a raffle. Type "%s" into chat to get entered.
+command.raffle.success.end=@%s has ended the raffle. Picking the winner now...
+command.raffle.success.winner=@%s is the winner of the raffle! Grats!
+
 # Random
 command.random.bing=@%s Bong!
 command.random.ding=@%s Dong!
@@ -98,6 +106,8 @@ command.random.ping=@%s Pong!
 command.random.ting=@%s Tong!
 command.random.beep=@%s Boop!
 command.random.beepbot=BeepBot is a chat bot designed to work cross-platform created by https://exozone.net. To find out more head on over to https://beepbot.net
+command.random.tableflip=(╯°□°）╯︵ ┻━┻
+command.random.tabledown=┬─┬﻿ ノ( ゜-゜ノ)
 
 # Regulars
 command.regulars.error.add.user.reg=@%s this user is already a regular.
