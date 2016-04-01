@@ -14,8 +14,8 @@ command.generic.execution.number.invalid=@%s Oops the argument `%s` is a not val
 command.generic.execution.valid=@%s Oops the param `%s` is not valid. Valid options are: %s
 command.generic.execution.level.low=@%s Oops you don't have the required level to perform this operation.
 command.generic.execution.not.overridable=@%s Oops the command `%s` is not allowed to be overridden.
-command.generic.execution.force.flag.invalid=@%s Oops the allowed flags are -f -F.
-command.generic.execution.not.found=@%s Oops the command `%s` does not exist.
+command.generic.execution.force.flag.invalid=@%s Oops the allowed flags are -f or -F.
+command.generic.execution.not.found=@%s Oops the command `%s%s` does not exist.
 command.generic.execution.alias.linked=@%s Oops the command `%s%s` is used as an alias.
 
 # COMMANDS LANG
