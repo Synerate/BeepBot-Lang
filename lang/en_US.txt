@@ -145,6 +145,11 @@ command.winner.message.wait=and the winner is... (drum roll please)
 command.winner.message.end=@%s is the winner! Grats! (You should claim your prize or something)
 command.winner.message.end.all=@%s is the winner, over on %s! Grats! (You should claim your prize or something)
 
+# EVENTS / GAMES LANG
+
+# Games
+game.user.winner=@%s is the winner! Grats!
+
 # PROTECTION LANG
 
 protection.purge.capsoveruse=@%s you just got pwnt for using too many caps!
