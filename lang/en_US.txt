@@ -12,7 +12,8 @@ command.generic.execution.string.short=@%s Oops the argument for the %s is too s
 command.generic.execution.string.long=@%s Oops the argument for the %s is too long.
 command.generic.execution.number.invalid=@%s Oops the argument `%s` is a not valid number.
 command.generic.execution.valid=@%s Oops the param `%s` is not valid. Valid options are: %s
-command.generic.execution.level.low=@%s Oops you don't have the required level to perform this operation.
+command.generic.execution.level.low=@%s Oops you don't have the required user level to perform this operation.
+command.generic.execution.time.invalid.range=@%s Oops the time you have given does not match the allowed range of %d to %d
 command.generic.execution.not.overridable=@%s Oops the command `%s` is not allowed to be overridden.
 command.generic.execution.force.flag.invalid=@%s Oops the allowed flags are -f or -F.
 command.generic.execution.not.found=@%s Oops the command `%s%s` does not exist.
@@ -148,7 +149,12 @@ command.winner.message.end.all=@%s is the winner, over on %s! Grats! (You should
 # EVENTS / GAMES LANG
 
 # Games
+game.user.zero.entered=Could not run the %s as no users joined in.
 game.user.winner=@%s is the winner! Grats!
+game.user.winner.game=@%s is the winner of the %s! Grats!
+
+# Game Types
+game.type.raffle=raffle
 
 # PROTECTION LANG
 
