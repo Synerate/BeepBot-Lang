@@ -23,9 +23,8 @@ command.generic.execution.alias.linked=@%s Oops the command `%s%s` is used as an
 
 # Addcom
 command.addcom.success.added.approval=@%s the command %s%s has been added. But the streamer has the approval setting enabled. The command will be active when it has been approved.
-command.addcom.success.added=@%s successfully added the %s%s command.
-command.addcom.error.found=@%s the command %s%s is already in use. Please try another name.
-command.addcom.error.message.short=@%s Oops the argument for the command message is too short.
+command.addcom.success.added=@%s successfully added the `%s%s` command.
+command.addcom.error.found=@%s the command `%s%s` is already in use. Please try another name.
 
 # Addquote
 command.addquote.success=@%s the quote has been successfully added you can call the quote with the ID: %s.
@@ -116,9 +115,9 @@ command.regulars.success.message.add=@%s successfully added @%s to the regulars 
 command.regulars.success.message.remove=@%s successfully removed @%s from the regulars list.
 
 # Restore
-command.restore.error.command.restored=@%s Oops, the command `%s` has already been restored.
+command.restore.error.command.restored=@%s Oops, the command `%s%s` has already been restored.
 command.restore.error.quote.restored=@%s Oops, the quote `%s` has already been restored.
-command.restore.success.command.message=@%s successfully restored the %s%s command.
+command.restore.success.command.message=@%s successfully restored the `%s%s` command.
 command.restore.success.quote.message=@%s successfully restored the quote %s.
 
 # Status
