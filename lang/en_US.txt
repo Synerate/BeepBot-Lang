@@ -101,6 +101,7 @@ command.random.bing=@%s Bong!
 command.random.ding=@%s Dong!
 command.random.king=@%s Kong!
 command.random.ping=@%s Pong!
+command.random.sing=@%s Song!
 command.random.ting=@%s Tong!
 command.random.beep=@%s Boop!
 command.random.beepbot=BeepBot is a chat bot designed to work cross-platform created by https://exozone.net. To find out more head on over to https://beepbot.net
