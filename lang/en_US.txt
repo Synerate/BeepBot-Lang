@@ -39,6 +39,12 @@ command.alias.success.added=@%s the command `%s` has been aliased to `%s`.
 command.alias.success.removed=@%s the alias `%s` has been removed.
 command.alias.success.edit=@%s the alias `%s` is now linked to `%s`.
 
+# Beepleave
+command.beepleave.error.pending=@%s Oops their is already a pending leave awaiting confirmation. If you lost the key please re-run the command later to get another key.
+command.beepleave.error.invalid=@%s Oops did you mean to run the command without "confirm"? As we found no pending request to leave.
+command.beepleave.error.code=@%s the code you have provided does not match the one generated.
+command.beepleave.success.pending=@%s the bot is ready to leave please run the following command to confirm the action `!beepleave confirm %s`. Note: This request expires in 10 seconds.
+
 # D20
 command.d20.error.invalid=@%s Oops the dice you threw was lost in play. Can you check your dice again?
 command.d20.success.roll=@%s, you rolled the dice and got %s.
