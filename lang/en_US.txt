@@ -102,6 +102,9 @@ command.raffle.error.pick=Oops there was an error picking a winner for the raffl
 command.raffle.success.end=@%s has ended the raffle. Picking the winner now...
 command.raffle.success.force.end=@%s the raffle has been forced to end.
 
+# Raided
+command.raided.message=@$touser has just raided us! Please visit their channel and give them a follow to say thanks! $(stream %touser%)
+
 # Random
 command.random.bing=@%s Bong!
 command.random.ding=@%s Dong!
