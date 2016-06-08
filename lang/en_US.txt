@@ -135,9 +135,11 @@ core.command.status.reply=(%s) Uptime: %s, RAM: %s
 
 # Ticker
 command.ticker.error.command.found=@%s oops the command `%s%s` already has a ticker.
+command.ticker.error.command.not.found=@%s oops the command `%s%s` does not have a ticker.
 command.ticker.error.edit.command.missing=@%s oops you need to specify the new command.
 command.ticker.success.add.command=@%s successfully added a command ticker for `%s%s`.
 command.ticker.success.edit.command=@%s successfully edited the command ticker to run `%s%s`.
+command.ticker.success.remove.command=@%s successfully removed the command ticker for `%s%s`.
 
 # Uptime
 command.uptime.error.parse=@%s Oops there was an error checking the uptime.
