@@ -8,8 +8,8 @@ command.generic.failure=@%s Oops there was an error handling the command. Please
 # Generic command executions.
 command.generic.execution.level.low=@%s Oops your user level is not high enough for this operation.
 command.generic.execution.string.empty=@%s Oops the argument for the %s is missing.
-command.generic.execution.string.short=@%s Oops the argument for the %s is too short.
-command.generic.execution.string.long=@%s Oops the argument for the %s is too long.
+command.generic.execution.string.short=@%s Oops the argument for the %s is too short needs to be at least %d.
+command.generic.execution.string.long=@%s Oops the argument for the %s is too long max length of %d.
 command.generic.execution.number.invalid=@%s Oops the argument `%s` is a not valid number.
 command.generic.execution.valid=@%s Oops the param `%s` is not valid. Valid options are: %s
 command.generic.execution.level.low=@%s Oops you don't have the required user level to perform this operation.
