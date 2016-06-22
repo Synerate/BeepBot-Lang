@@ -79,8 +79,8 @@ command.linked.prefixed=@%s prefixed linked chat is now %s.
 
 # Patreon
 command.patreon.success.standard=You can also support %s on Patreon: %s
-command.patreon.success.details.0=Patreon is now on $%s (%s patrons - average $%s/patreon) - $%s to the next goal: %s
-command.patreon.success.details.1=Patreon is now on $%s (%s patrons - average $%s/patreon) - Past last goal (Well done!)
+command.patreon.success.details.0=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - \$%s to the next goal: %s
+command.patreon.success.details.1=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - Past last goal (Well done!)
 command.patreon.error.user.not.set=@%s Oops, the patreon user has not been set for this channel.
 
 # Permit
