@@ -12,7 +12,6 @@ command.generic.execution.string.short=@%s Oops the argument for the %s is too s
 command.generic.execution.string.long=@%s Oops the argument for the %s is too long max length of %d.
 command.generic.execution.number.invalid=@%s Oops the argument `%s` is a not valid number.
 command.generic.execution.valid=@%s Oops the param `%s` is not valid. Valid options are: %s
-command.generic.execution.level.low=@%s Oops you don't have the required user level to perform this operation.
 command.generic.execution.time.invalid.range=@%s Oops the time you have given does not match the allowed range of %d to %d
 command.generic.execution.not.overridable=@%s Oops the command `%s%s` is not allowed to be overridden.
 command.generic.execution.force.flag.invalid=@%s Oops the allowed flags are -f or -F.
@@ -30,7 +29,7 @@ command.addcom.error.found=@%s the command `%s%s` is already in use. Please try 
 command.addquote.success=@%s the quote has been successfully added you can call the quote with the ID: %s.
 
 # Alias
-command.alias.error.alias.found=@%s Oops it seems you already has an alias with this name.
+command.alias.error.alias.found=@%s Oops it seems you already have an alias with this name.
 command.alias.error.dupe=@%s you can't have an alias pointing to another alias.
 command.alias.error.command.found=@%s you can't have an alias named the same as a custom command.
 command.alias.error.command.not.found=@%s Oops, we can't alias to a command which does not exists.
