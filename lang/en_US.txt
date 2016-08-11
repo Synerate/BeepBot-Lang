@@ -18,6 +18,8 @@ command.generic.execution.not.overridable=@%s Oops the command `%s%s` is not all
 command.generic.execution.force.flag.invalid=@%s Oops the allowed flags are -f or -F.
 command.generic.execution.not.found=@%s Oops the command `%s%s` does not exist.
 command.generic.execution.alias.linked=@%s Oops the command `%s%s` is used as an alias.
+command.generic.execution.string.uri.invalid=@%s Oops we need a valid URL to process this command.
+command.generic.execution.deletion.already.marked=@%s this resource has already been marked for deletion.
 
 # COMMANDS LANG
 
@@ -27,7 +29,7 @@ command.addcom.success.added=@%s successfully added the `%s%s` command.
 command.addcom.error.found=@%s the command `%s%s` is already in use. Please try another name.
 
 # Addquote
-command.addquote.success=@%s the quote has been successfully added you can call the quote with the ID: %s.
+command.addquote.success=@%s the quote has been successfully added you can call the quote with the Id: %s.
 
 # Alias
 command.alias.error.alias.found=@%s Oops it seems you already has an alias with this name.
@@ -58,7 +60,6 @@ command.delcom.error.deleted.marked=@%s you can't modify a command which is mark
 # Delquote
 command.delquote.error.id.invalid=@%s the quote Id `%s` is not a valid number; or is less that zero.
 command.delquote.error.id.not.found=@%s no quote with the Id `%s` was found.
-command.delquote.error.id.marked.deleted=@%s the quote `%s` is already marked for deletion.
 command.delquote.success.deleted=@%s the quote `%s` has been removed successfully.
 command.delquote.success.deleted.marked=@%s successfully marked the quote `%s` for deletion.
 
@@ -72,6 +73,15 @@ command.editcom.success.edited=@%s the command `%s%s` has been updated.
 command.editul.error.invalid=@%s the user level `%s` is not valid.
 command.editul.success.edited=@%s the command `%s%s` user's level has been changed to %s.
 
+# Gif
+command.gif.add.success=@%s the gif has been successfully added you can call the gif with the Id: %s.
+command.gif.remove.error.id.invalid=@%s the gif Id `%s` is not a valid number; or is less that zero.
+command.gif.remove.id.not.found=@%s no gif with the Id `%s` was found.
+command.gif.remove.success.deleted=@%s the gif `%s` has been removed successfully.
+command.gif.remove.success.deleted.marked=@%s successfully marked the gif `%s` for deletion.
+command.gif.error.empty=@%s no gifs were found for this channel.
+command.gif.error.id.not.found=@%s no gif with this Id was found.
+
 # Linked
 command.linked.client.state=@%s the linked chat for this platform has been %s.
 command.linked.state=@%s linked chats are now %s.
@@ -79,7 +89,7 @@ command.linked.prefixed=@%s prefixed linked chat is now %s.
 
 # Patreon
 command.patreon.success.standard=You can also support %s on Patreon: %s
-command.patreon.success.details.0=Patreon is now on $%s (%s patrons - average $%s/patreon) - $%s to the next goal: %s
+command.patreon.success.details.0=Patreon is now on $%s (%s patrons - average $%d/patreon) - $%s to the next goal: %s
 command.patreon.success.details.1=Patreon is now on $%s (%s patrons - average $%s/patreon) - Past last goal (Well done!)
 command.patreon.error.user.not.set=@%s Oops, the patreon user has not been set for this channel.
 
