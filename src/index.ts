@@ -17,9 +17,9 @@ for (let i = 0, length = listing.length; i < length; i++) {
 }
 
 export interface ILangFiles {
- [locale: string]: {
-   [key: string]: string
- }
+  [locale: string]: {
+    [key: string]: string;
+  };
 }
 
-export {langFiles};
+export { langFiles };

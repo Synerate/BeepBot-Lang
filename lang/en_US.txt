@@ -3,7 +3,7 @@
 # Generic replies
 command.generic.reply=%s
 command.generic.reply.user=@%s, %s
-command.generic.failure=@%s Oops there was an error handling the command. Please alert support for help.
+command.generic.failure=@%s Oops there was an error handling the command. This has been logged as a bug.
 
 # Generic command executions.
 command.generic.execution.level.low=@%s Oops your user level is not high enough for this operation.
@@ -44,7 +44,7 @@ command.alias.success.edit=@%s the alias `%s` is now linked to `%s`.
 command.beepleave.error.pending=@%s Oops their is already a pending leave awaiting confirmation. If you lost the key please re-run the command later to get another key.
 command.beepleave.error.invalid=@%s Oops did you mean to run the command without "confirm"? As we found no pending request to leave.
 command.beepleave.error.code=@%s the code you have provided does not match the one generated.
-command.beepleave.success.pending=@%s the bot is ready to leave please run the following command to confirm the action `!beepleave confirm %s`. Note: This request expires in 10 seconds.
+command.beepleave.success.pending=@%s the bot is ready to leave please run the following command to confirm the action `!beepleave confirm %s`. Note: This request expires in 20 seconds.
 
 # D20
 command.d20.error.invalid=@%s Oops the dice you threw was lost in play. Can you check your dice again?
@@ -81,11 +81,6 @@ command.gif.remove.success.deleted.marked=@%s successfully marked the gif `%s` f
 command.gif.error.empty=@%s no gifs were found for this channel.
 command.gif.error.id.not.found=@%s no gif with this Id was found.
 
-# Linked
-command.linked.client.state=@%s the linked chat for this platform has been %s.
-command.linked.state=@%s linked chats are now %s.
-command.linked.prefixed=@%s prefixed linked chat is now %s.
-
 # Patreon
 command.patreon.success.standard=You can also support %s on Patreon: %s
 command.patreon.success.details.0=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - \$%s to the next goal: %s
@@ -102,7 +97,7 @@ command.purge.error.user.no.messages=@%s Oops no messages were found or the user
 command.purge.success.message=%s's messages has been removed from the chat.
 
 # Quotes
-command.quote.error.empty=@%s no quotes were found for this channel.
+command.quote.error.empty=@%s no quotes were found for the channel, or the quote is marked for deletion.
 command.quote.error.user.not.found=@%s not quotes were found for this user.
 command.quote.error.id.not.found=@%s no quote with this Id was found.
 
@@ -141,6 +136,11 @@ command.restore.success.quote.message=@%s successfully restored the quote %s.
 
 # Status
 core.command.status.reply=(%s) Uptime: %s, RAM: %s
+
+# Synced
+command.synced.prefixed=@%s prefixed synced messages is now %s.
+command.synced.platform.toggle=@%s the sending / receiving states for this platform has been changed.
+command.synced.platform.state.toggle=@%s the %s state for this platform has been changed.
 
 # Ticker
 command.ticker.error.command.found=@%s oops the command `%s%s` already has a ticker.
