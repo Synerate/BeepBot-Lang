@@ -140,7 +140,7 @@ core.command.status.reply=(%s) Uptime: %s, RAM: %s
 # Synced
 command.synced.prefixed=@%s prefixed synced messages is now %s.
 command.synced.platform.toggle=@%s the sending / receiving states for this platform has been changed.
-command.synced.platform.state.toggle=@%s the %s state for this platform has been changed.
+command.synced.platform.state.toggle=@%s the %s state for this platform has been %s.
 
 # Ticker
 command.ticker.error.command.found=@%s oops the command `%s%s` already has a ticker.
@@ -171,7 +171,7 @@ command.winner.message.end.all=@%s is the winner, over on %s! Grats! (You should
 # EVENTS / GAMES LANG
 
 # Games
-gane.user.zero.found=No valid users could be found for the game.
+game.user.zero.found=No valid users could be found for the game.
 game.user.zero.entered=No one joined the %s which is sad :(
 
 game.state.error.active=@%s the %s is already running. Wait for the game to end before running another one.
