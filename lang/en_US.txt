@@ -91,6 +91,9 @@ command.patreon.error.user.not.set=@%s Oops, the patreon user has not been set f
 command.permit.error.user.self=@%s you can't permit yourself!
 command.permit.success=@%s has been permitted to post a link.
 
+# Points
+command.points.get=@%s you have %s %s
+
 # Purge
 command.purge.error.user.self=@%s you can't purge yourself!
 command.purge.error.user.no.messages=@%s Oops no messages were found or the user is a mod or above user.

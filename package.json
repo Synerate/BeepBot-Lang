@@ -1,6 +1,6 @@
 {
   "name": "beepbot-lang",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "ExoZone Development",
   "description": "Language files used by BeepBot.",
   "main": "dist/index.js",
