@@ -19,6 +19,7 @@ command.generic.execution.not.found=@%s Oops the command `%s%s` does not exist.
 command.generic.execution.alias.linked=@%s Oops the command `%s%s` is used as an alias.
 command.generic.execution.string.uri.invalid=@%s Oops we need a valid URL to process this command.
 command.generic.execution.deletion.already.marked=@%s this resource has already been marked for deletion.
+command.generic.execution.deleted.marked=@%s oops this %s has been marked for deletion.
 
 # COMMANDS LANG
 
@@ -92,7 +93,7 @@ command.permit.error.user.self=@%s you can't permit yourself!
 command.permit.success=@%s has been permitted to post a link.
 
 # Points
-command.points.get=@%s you have %s %s
+command.points.get=@%s you have %s %s.
 
 # Purge
 command.purge.error.user.self=@%s you can't purge yourself!
