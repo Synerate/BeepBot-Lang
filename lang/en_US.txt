@@ -209,6 +209,15 @@ protection.purge.emotesoveruse=@%s please don't spam emotes in chat.
 protection.purge.essay=@%s, Geez man, were you typing a novel there? Try to keep the messages shorter please!
 protection.user.banned=@%s, that's it man you've had enough chances. Time to take a long time out!
 
+# Protection Reasons
+protection.reason.caps=User was purged for overuse of capitals.
+protection.reason.links=User posted a link without prior permission to do so.
+protection.reason.words.User was purged for saying a word which is banned in the channel.
+protection.reason.symbols=User was purged for overuse of symbols in a message.
+protection.reason.emotes=User was purged for overuse of emotes in a message.
+protection.reason.essay=User was purged for typing a large message.
+protection.reason.banned=User was banned for constant disobey of the channel chat rules.
+
 protection.sleep.success=@%s protection is now disabled.
 protection.sleep.unchanged=@%s protection is already disabled.
 protection.wake.success=@%s protection is now enabled.
