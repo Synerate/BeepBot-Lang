@@ -1,9 +1,17 @@
 # GENERIC LANG
 
+# Generic Words
+word.disabled=disabled
+word.enabled=enabled
+
 # Generic replies
 command.generic.reply=%s
 command.generic.reply.user=@%s, %s
 command.generic.failure=@%s Oops there was an error handling the command. This has been logged as a bug.
+command.generic.help.none.example=Oops this command does not have any examples. You should contact the developers if you feel this command should have some.
+command.generic.help.none=Oops this command does not have any help text. You should contact the developers if you feel this command should have some help text.
+command.generic.help.info=Info: %s
+command.generic.help.example=Examples: %s
 
 # Generic command executions.
 command.generic.execution.level.low=@%s Oops your user level is not high enough for this operation.
