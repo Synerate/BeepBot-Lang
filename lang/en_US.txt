@@ -102,6 +102,9 @@ command.permit.success=@%s has been permitted to post a link.
 
 # Points
 command.points.get=@%s you have %s %s.
+command.points.status.running=%s the tracker is running with a TTL of %d left.
+command.points.status.missing=%s the tracker seems to be missing for the channel.
+command.points.restart.tracker=%s the tracker has been restarted. Note: If one was running before the TTL has been reset.
 
 # Purge
 command.purge.error.user.self=@%s you can't purge yourself!
