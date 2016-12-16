@@ -178,6 +178,7 @@ command.variables.success.set=@%s set variable %s to %s.
 command.variables.success.remove=@%s removed variable %s.
 
 # Wallet
+command.wallet.current=@%s you currently have the %s wallet. And it has %d%% capacity remaining.
 command.wallet.upgrade.success=@%s you have successfully upgraded your wallet to %s from %s at a cost of %s%s.
 command.wallet.upgrade.status=@%s the next wallet you can purchase is %s as a cost of %s%s.
 command.wallet.upgrade.insufficient=@%s oops you don't have enough %s%s to purchase the next wallet.
