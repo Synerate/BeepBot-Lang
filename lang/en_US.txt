@@ -181,7 +181,8 @@ command.variables.success.remove=@%s removed variable %s.
 command.wallet.current=@%s you currently have the %s wallet. And it has %d%% capacity remaining.
 command.wallet.upgrade.success=@%s you have successfully upgraded your wallet to %s from %s at a cost of %s%s.
 command.wallet.upgrade.status=@%s the next wallet you can purchase is %s as a cost of %s%s.
-command.wallet.upgrade.insufficient=@%s oops you don't have enough %s%s to purchase the next wallet.
+command.wallet.upgrade.insufficient=@%s oops you don't have enough %s to purchase the next wallet.
+command.wallet.upgrade.no.wallets=@%s oops no more wallets could be found for the channel.
 
 # Winner
 command.winner.error.core=@%s Oops it seems some time was lost in the space time continuum. NASA have been notified about this error.
