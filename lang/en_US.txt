@@ -102,7 +102,7 @@ command.permit.success=@%s has been permitted to post a link.
 
 # Points
 command.points.get=@%s you have %s %s.
-command.points.get.capped=@%S you currently have %s %s, but you have reached the maximum limit for the wallet %s. I suggest purchasing a new wallet using; !wallet upgrade
+command.points.get.capped=@%s you currently have %s %s, but you have reached the maximum limit for the wallet %s. I suggest purchasing a new wallet using; !wallet upgrade
 command.points.status.running=@%s the tracker is running with a TTL of %d left.
 command.points.status.missing=@%s the tracker seems to be missing for the channel.
 command.points.restart.tracker=@%s the tracker has been restarted. Note: If one was running before the TTL has been reset.
