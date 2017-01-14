@@ -106,6 +106,10 @@ command.points.get.capped=@%s you currently have %s %s, but you have reached the
 command.points.status.running=@%s the tracker is running with a TTL of %d left.
 command.points.status.missing=@%s the tracker seems to be missing for the channel.
 command.points.restart.tracker=@%s the tracker has been restarted. Note: If one was running before the TTL has been reset.
+command.points.state.changed=@%s the points state has been changed to %s.
+command.points.state.not.found=@%s the state %s was not found. You can create it by running the same command but add the following arguments after for the active and lurking earning amount. E.G. !points set state testing 0.5 0.2
+command.points.state.created=@%s the state %s has been created and been made active.
+command.points.state.get=@%s the current state is %s with the earning values of; Active %d / Lurkers: %d.
 
 # Purge
 command.purge.error.user.self=@%s you can't purge yourself!
