@@ -28,6 +28,7 @@ command.generic.execution.alias.linked=@%s Oops the command `%s%s` is used as an
 command.generic.execution.string.uri.invalid=@%s Oops we need a valid URL to process this command.
 command.generic.execution.deletion.already.marked=@%s this resource has already been marked for deletion.
 command.generic.execution.deleted.marked=@%s oops this %s has been marked for deletion.
+command.generic.execution.points.disabled=@%s points are currently disabled on the channel which this command relies on. Try again later when the streamer has enabled points.
 
 # COMMANDS LANG
 
@@ -107,6 +108,7 @@ command.points.status.running=@%s the tracker is running with a TTL of %d left.
 command.points.status.missing=@%s the tracker seems to be missing for the channel.
 command.points.restart.tracker=@%s the tracker has been restarted. Note: If one was running before the TTL has been reset.
 command.points.state.changed=@%s the points state has been changed to %s.
+command.points.state.modified=@%s the point state %s has had it's values changed to; Active %d / Lurkers: %d.
 command.points.state.not.found=@%s the state %s was not found. You can create it by running the same command but add the following arguments after for the active and lurking earning amount. E.G. !points set state testing 0.5 0.2
 command.points.state.created=@%s the state %s has been created and been made active.
 command.points.state.get=@%s the current state is %s with the earning values of; Active %d / Lurkers: %d.
