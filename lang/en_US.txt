@@ -91,6 +91,11 @@ command.gif.remove.success.deleted.marked=@%s successfully marked the gif `%s` f
 command.gif.error.empty=@%s no gifs were found for this channel.
 command.gif.error.id.not.found=@%s no gif with this Id was found.
 
+# Linker
+command.linker.link=@%s here is your link for joining your %s account. Don't share this with anyone else! %s.
+command.linker.error.platform=@%s oops this platform is not a valid option.
+command.linker.patreon.error.id=@%s the streamer has not set their Patreon information to the bot. Try this command again when they add their info. (Don't poke them while they are live though)
+
 # Patreon
 command.patreon.success.standard=You can also support %s on Patreon: %s
 command.patreon.success.details.0=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - \$%s to the next goal: %s
