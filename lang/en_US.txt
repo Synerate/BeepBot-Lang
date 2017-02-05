@@ -18,6 +18,7 @@ command.generic.execution.level.low=@%s Oops your user level is not high enough 
 command.generic.execution.string.empty=@%s Oops the argument for the %s is missing.
 command.generic.execution.string.short=@%s Oops the argument for the %s is too short needs to be at least %d.
 command.generic.execution.string.long=@%s Oops the argument for the %s is too long max length of %d.
+command.generic.execution.string.regex=@%s Oops the argument expects a certain formatting for %s.
 command.generic.execution.number.invalid=@%s Oops the argument `%s` is a not valid number.
 command.generic.execution.valid=@%s Oops the param `%s` is not valid. Valid options are: %s
 command.generic.execution.time.invalid.range=@%s Oops the time you have given does not match the allowed range of %d to %d
@@ -95,6 +96,11 @@ command.gif.error.id.not.found=@%s no gif with this Id was found.
 command.linker.link=@%s here is your link for joining your %s account. Don't share this with anyone else! %s.
 command.linker.error.platform=@%s oops this platform is not a valid option.
 command.linker.patreon.error.id=@%s the streamer has not set their Patreon information to the bot. Try this command again when they add their info. (Don't poke them while they are live though)
+
+# Multistream
+command.multistream.error.get=@%s oops the multistream link has not been set.
+command.multistream.get=We are multicasting! Come join us: %s
+command.multistream.set=@%s the multistream listing has been updated to: %s
 
 # Patreon
 command.patreon.success.standard=You can also support %s on Patreon: %s
