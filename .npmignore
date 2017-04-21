@@ -1,4 +1,4 @@
 .npmignore
-.idea
+.vscode
 node_modules
 src/
