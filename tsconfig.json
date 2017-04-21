@@ -1,16 +1,24 @@
 {
   "compilerOptions": {
-    "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
-    "inlineSourceMap": true,
+    "target": "es6",
+    "removeComments": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "outDir": "dist/",
-    "rootDir": "src/",
-    "declaration": true
+    "outDir": "js",
+    "sourceMap": true,
+    "pretty": true,
+    "declaration": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "node"
+    ]
   },
   "exclude": [
+    "js",
     "node_modules"
   ]
 }

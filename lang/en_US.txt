@@ -1,244 +1,87 @@
 # GENERIC LANG
 
-# Generic Words
-word.disabled=disabled
-word.enabled=enabled
+# Word
+word.command=command
+word.quote=quote
+word.gif=gif
+word.raffle=raffle
+word.patreon=Patreon
 
-# Generic replies
-command.generic.reply=%s
-command.generic.reply.user=@%s, %s
-command.generic.failure=@%s Oops there was an error handling the command. This has been logged as a bug.
-command.generic.help.none.example=Oops this command does not have any examples. You should contact the developers if you feel this command should have some.
-command.generic.help.none=Oops this command does not have any help text. You should contact the developers if you feel this command should have some help text.
-command.generic.help.info=Info: %s
-command.generic.help.example=Examples: %s
+# Command Replies.
+generic.added=@%s the %s has been added successfully.
+generic.added.approval=@%s the %s has been added and is now awaiting approval.
+generic.edited=@%s the %s %s has been edited.
+generic.deleted=@%s the %s has been deleted.
+generic.deleted.flagged=@%s the %s has been flagged for deletion.
+generic.dupe=@%s you can't have an %s with the same name.
 
-# Generic command executions.
-command.generic.execution.level.low=@%s Oops your user level is not high enough for this operation.
-command.generic.execution.string.empty=@%s Oops the argument for the %s is missing.
-command.generic.execution.string.short=@%s Oops the argument for the %s is too short needs to be at least %d.
-command.generic.execution.string.long=@%s Oops the argument for the %s is too long max length of %d.
-command.generic.execution.string.regex=@%s Oops the argument expects a certain formatting for %s.
-command.generic.execution.number.invalid=@%s Oops the argument `%s` is a not valid number.
-command.generic.execution.valid=@%s Oops the param `%s` is not valid. Valid options are: %s
-command.generic.execution.time.invalid.range=@%s Oops the time you have given does not match the allowed range of %d to %d
-command.generic.execution.not.overridable=@%s Oops the command `%s%s` is not allowed to be overridden.
-command.generic.execution.force.flag.invalid=@%s Oops the allowed flags are -f or -F.
-command.generic.execution.not.found=@%s Oops the command `%s%s` does not exist.
-command.generic.execution.alias.linked=@%s Oops the command `%s%s` is used as an alias.
-command.generic.execution.string.uri.invalid=@%s Oops we need a valid URL to process this command.
-command.generic.execution.deletion.already.marked=@%s this resource has already been marked for deletion.
-command.generic.execution.deleted.marked=@%s oops this %s has been marked for deletion.
-command.generic.execution.points.disabled=@%s points are currently disabled on the channel which this command relies on. Try again later when the streamer has enabled points.
+# Command Errors.
+generic.error=@%s an error occurred; the error has been logged. ID: %s
+generic.missing=@%s the %s %s has not been found. Are you using the right name/id?
+generic.found=@%s the %s %s is already in use. Please try another name.
+generic.deleted.marked=@%s the %s has already been flagged for deletion.
+generic.meta.missing=@%s the %s data has not been set by the streamer yet. Try this command again when they add their info. (Don't poke them while they are live though)
+generic.provider.invalid=@%s Oops this platform is not a valid option.
 
-# COMMANDS LANG
+# Joi Errors.
+joi.string.empty=@%s Oops the argument for the %s is missing.
+joi.string.short=@%s Oops the argument for the %s is too short needs to be at least %d.
+joi.string.long=@%s Oops the argument for the %s is too long max length of %d.
+joi.string.regex=@%s Oops the argument expects a certain formatting for %s.
+joi.number.invalid=@%s Oops the argument `%s` is a not valid number.
+joi.string.valid=@%s Oops the param `%s` is not valid. Valid options are: %s
+joi.range=@%s Oops the time you have given does not match the allowed range of %d to %d
 
-# Addcom
-command.addcom.success.added.approval=@%s the command %s%s has been added. But the streamer has the approval setting enabled. The command will be active when it has been approved.
-command.addcom.success.added=@%s successfully added the `%s%s` command.
-command.addcom.error.found=@%s the command `%s%s` is already in use. Please try another name.
+# COMMAND LANG
 
-# Addquote
-command.addquote.success=@%s the quote has been successfully added you can call the quote with the Id: %s.
+alias.success=@%s the alias `%s` is now linked to `%s`.
+alias.error.command=@%s Oops, we can't alias to a command which does not exists.
 
-# Alias
-command.alias.error.alias.found=@%s Oops it seems you already have an alias with this name.
-command.alias.error.dupe=@%s you can't have an alias pointing to another alias.
-command.alias.error.command.found=@%s you can't have an alias named the same as a custom command.
-command.alias.error.command.not.found=@%s Oops, we can't alias to a command which does not exists.
-command.alias.error.name.not.found=@%s Oops it seems the alias `%s` does not exist.
-command.alias.success.added=@%s the command `%s` has been aliased to `%s`.
-command.alias.success.removed=@%s the alias `%s` has been removed.
-command.alias.success.edit=@%s the alias `%s` is now linked to `%s`.
+claim.success=@%s thank you for claiming your winning. The streamer has been notified!
 
-# Beepleave
-command.beepleave.error.pending=@%s Oops their is already a pending leave awaiting confirmation. If you lost the key please re-run the command later to get another key.
-command.beepleave.error.invalid=@%s Oops did you mean to run the command without "confirm"? As we found no pending request to leave.
-command.beepleave.error.code=@%s the code you have provided does not match the one generated.
-command.beepleave.success.pending=@%s the bot is ready to leave please run the following command to confirm the action `!beepleave confirm %s`. Note: This request expires in 20 seconds.
+linker.link=@%s here is your link for joining your %s account. Don't share this with anyone else! %s.
 
-# D20
-command.d20.error.invalid=@%s Oops the dice you threw was lost in play. Can you check your dice again?
-command.d20.success.roll=@%s, you rolled the dice and got %s.
+multicasting.error=@%s the multistream link has not been set yet.
+multicasting.get=We are multicasting! Come join us: %s
+multicasting.set=@%s the multistream listing has been updated to: %s
 
-# Delcom
-command.delcom.error.command.deleted=@%s Oops the command `%s%s` has already been marked for deletion.
-command.delcom.success.deleted=@%s the command `%s%s` has been deleted.
-command.delcom.success.deleted.marked=@%s the command `%s%s` has been marked for deletion.
-command.delcom.error.deleted.marked=@%s you can't modify a command which is marked for deletion.
+permit.self=@%s you can't permit yourself!
+permit.success=@%s has been permitted to post a link.
 
-# Delquote
-command.delquote.error.id.invalid=@%s the quote Id `%s` is not a valid number; or is less that zero.
-command.delquote.error.id.not.found=@%s no quote with the Id `%s` was found.
-command.delquote.success.deleted=@%s the quote `%s` has been removed successfully.
-command.delquote.success.deleted.marked=@%s successfully marked the quote `%s` for deletion.
+patreon.standard=You can also support %s on Patreon: %s
+patreon.details.0=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - \$%s to the next goal: %s
+patreon.deleted.1=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - Past last goal (Well done!)
 
-# Dye
-command.dye.success=Do you even %s?
+regular.added=@%s successfully added %s to the regulars list.
+regular.removed=@%s successfully removed %s from the regulars list.
 
-# Editcom
-command.editcom.success.edited=@%s the command `%s%s` has been updated.
-
-# Editul
-command.editul.error.invalid=@%s the user level `%s` is not valid.
-command.editul.success.edited=@%s the command `%s%s` user's level has been changed to %s.
-
-# Gif
-command.gif.add.success=@%s the gif has been successfully added you can call the gif with the Id: %s.
-command.gif.remove.error.id.invalid=@%s the gif Id `%s` is not a valid number; or is less that zero.
-command.gif.remove.id.not.found=@%s no gif with the Id `%s` was found.
-command.gif.remove.success.deleted=@%s the gif `%s` has been removed successfully.
-command.gif.remove.success.deleted.marked=@%s successfully marked the gif `%s` for deletion.
-command.gif.error.empty=@%s no gifs were found for this channel.
-command.gif.error.id.not.found=@%s no gif with this Id was found.
-
-# Linker
-command.linker.link=@%s here is your link for joining your %s account. Don't share this with anyone else! %s.
-command.linker.error.platform=@%s oops this platform is not a valid option.
-command.linker.patreon.error.id=@%s the streamer has not set their Patreon information to the bot. Try this command again when they add their info. (Don't poke them while they are live though)
-
-# Multistream
-command.multistream.error.get=@%s oops the multistream link has not been set.
-command.multistream.get=We are multicasting! Come join us: %s
-command.multistream.set=@%s the multistream listing has been updated to: %s
-
-# Patreon
-command.patreon.success.standard=You can also support %s on Patreon: %s
-command.patreon.success.details.0=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - \$%s to the next goal: %s
-command.patreon.success.details.1=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - Past last goal (Well done!)
-command.patreon.error.user.not.set=@%s Oops, the patreon user has not been set for this channel.
-
-# Permit
-command.permit.error.user.self=@%s you can't permit yourself!
-command.permit.success=@%s has been permitted to post a link.
-
-# Points
-command.points.get=@%s you have %s %s.
-command.points.get.capped=@%s you currently have %s %s, but you have reached the maximum limit for the wallet %s. I suggest purchasing a new wallet using; !wallet upgrade
-command.points.status.running=@%s the tracker is running with a TTL of %d left.
-command.points.status.missing=@%s the tracker seems to be missing for the channel.
-command.points.restart.tracker=@%s the tracker has been restarted. Note: If one was running before the TTL has been reset.
-command.points.state.changed=@%s the points state has been changed to %s.
-command.points.state.modified=@%s the point state %s has had it's values changed to; Active %d / Lurkers: %d.
-command.points.state.not.found=@%s the state %s was not found. You can create it by running the same command but add the following arguments after for the active and lurking earning amount. E.G. !points set state testing 0.5 0.2
-command.points.state.created=@%s the state %s has been created and been made active.
-command.points.state.get=@%s the current state is %s with the earning values of; Active %d / Lurkers: %d.
-
-# Purge
-command.purge.error.user.self=@%s you can't purge yourself!
-command.purge.error.user.no.messages=@%s Oops no messages were found or the user is a mod or above user.
-command.purge.success.message=%s's messages has been removed from the chat.
-
-# Quotes
-command.quote.error.empty=@%s no quotes were found for the channel, or the quote is marked for deletion.
-command.quote.error.user.not.found=@%s not quotes were found for this user.
-command.quote.error.id.not.found=@%s no quote with this Id was found.
-
-# Raffle
-command.raffle.error.pick=Oops there was an error picking a winner for the raffle. Please try again in a few mins.
-command.raffle.success.end=@%s has ended the raffle. Picking the winner now...
-command.raffle.success.force.end=@%s the raffle has been forced to end.
-
-# Raided
-command.raided.message=@$touser has just raided us! Please visit their channel and give them a follow to say thanks! $(stream %touser%)
-
-# Random
-command.random.bing=@%s Bong!
-command.random.ding=@%s Dong!
-command.random.king=@%s Kong!
-command.random.ping=@%s Pong!
-command.random.sing=@%s Song!
-command.random.ting=@%s Tong!
-command.random.beep=@%s Boop!
-command.random.beepbot=BeepBot is a chat bot designed to work cross-platform created by https://exozone.net. To find out more head on over to https://beepbot.net
-command.random.tableflip=(╯°□°）╯︵ ┻━┻
-command.random.tabledown=┬─┬﻿ ノ( ゜-゜ノ)
-
-# Regulars
-command.regulars.error.add.user.reg=@%s this user is already a regular.
-command.regulars.error.delete.user.not.reg=@%s this user is not a regular.
-command.regulars.error.user.not.found=@%s the user `%s` was not found to add as a regular.
-command.regulars.success.message.add=@%s successfully added @%s to the regulars list.
-command.regulars.success.message.remove=@%s successfully removed @%s from the regulars list.
-
-# Restore
-command.restore.error.command.restored=@%s Oops, the command `%s%s` has already been restored.
-command.restore.error.quote.restored=@%s Oops, the quote `%s` has already been restored.
-command.restore.success.command.message=@%s successfully restored the `%s%s` command.
-command.restore.success.quote.message=@%s successfully restored the quote %s.
-
-# Status
-core.command.status.reply=(%s) Uptime: %s, RAM: %s
-
-# Synced
-command.synced.prefixed=@%s prefixed synced messages is now %s.
-command.synced.platform.toggle=@%s the sending / receiving states for this platform has been changed.
-command.synced.platform.state.toggle=@%s the %s state for this platform has been %s.
-
-# Ticker
-command.ticker.error.command.found=@%s oops the command `%s%s` already has a ticker.
-command.ticker.error.command.not.found=@%s oops the command `%s%s` does not have a ticker.
-command.ticker.error.edit.command.missing=@%s oops you need to specify the new command.
-command.ticker.success.add.command=@%s successfully added a command ticker for `%s%s`.
-command.ticker.success.edit.command=@%s successfully edited the command ticker to run `%s%s`.
-command.ticker.success.remove.command=@%s successfully removed the command ticker for `%s%s`.
-
-# Uptime
-command.uptime.error.parse=@%s Oops there was an error checking the uptime.
-command.uptime.error.not.live=@%s the streamer is not live to get the uptime.
-command.uptime.success.message=@%s the streamer has been live for %s
-
-# Variables
-command.variables.error.nan=@%s the value `%s` is not valid number.
-command.variables.error.not.found=@%s the variable `%s` does not exist.
-command.variables.success.set=@%s set variable %s to %s.
-command.variables.success.remove=@%s removed variable %s.
-
-# Wallet
-command.wallet.current=@%s you currently have the %s wallet. You have %d %s to which you have %d%% capacity left.
-command.wallet.info=@%s you can upgrade your wallet using !wallet upgrade or !wallet status to see the next wallet you can buy.
-command.wallet.upgrade.success=@%s you have successfully upgraded your wallet to %s from %s at a cost of %d %s.
-command.wallet.upgrade.status=@%s the next wallet you can purchase is %s as a cost of %d %s.
-command.wallet.upgrade.insufficient=@%s oops you don't have enough %s to purchase the next wallet.
-command.wallet.upgrade.no.wallets=@%s oops no more wallets could be found for the channel.
-
-# Winner
-command.winner.error.core=@%s Oops it seems some time was lost in the space time continuum. NASA have been notified about this error.
-command.winner.error.no.users=@%s Oops I could not find any users to run the draw. This could be for many reasons. Please try the command again :)
-command.winner.message.wait=and the winner is... (drum roll please)
-command.winner.message.end=@%s is the winner! Grats! (You should claim your prize or something)
-command.winner.message.end.all=@%s is the winner, over on %s! Grats! (You should claim your prize or something)
+uptime.offline=@%s the streamer is not live!
+uptime.online=@%s the streamer has been live for %s.
 
 # EVENTS / GAMES LANG
 
-# Games
-game.user.zero.found=No valid users could be found for the game.
-game.user.zero.entered=No one joined the %s which is sad :(
-
-game.state.error.active=@%s the %s is already running. Wait for the game to end before running another one.
+game.state.active=@%s the %s is already running. Wait for the game to end before running another one.
 game.state.start=@%s has started a %s
 game.state.start.sub=@%s has started a subscribers %s
-game.state.start.raffle=raffle. Type something into chat to get entered.
-game.state.start.raffle.word=raffle. Type "%s" into chat to get entered.
+game.state.start.chat.word=Type "%s" into chat to get entered.
 
-game.user.winner=@%s is the winner! Congratulations! *\0/*
-game.user.winner.game=@%s has won the %s. Congratulations! *\0/*
-
-# Game Types
-game.type.raffle=raffle
+game.user.winner=@%s is the winner! Congratulations! *\0/* please run !claim to say you'd like the prize.
+game.user.winner.game=@%s has won the %s. Congratulations! *\0/* please run !claim to say you'd like the prize.
 
 # PROTECTION LANG
 
-protection.purge.capsoveruse=@%s you just got pwnt for using too many caps!
-protection.purge.linksposting=@%s please don't post links without permission!
-protection.purge.bannedword=@%s you cannot say that here.
-protection.purge.bannedsymbols=@%s you cannot use those symbols here.
-protection.purge.symbolusage=@%s please don't spam symbols in chat.
-protection.purge.emotesoveruse=@%s please don't spam emotes in chat.
-protection.purge.essay=@%s, Geez man, were you typing a novel there? Try to keep the messages shorter please!
-protection.user.banned=@%s, that's it man you've had enough chances. Time to take a long time out!
+# Filter Replies.
+protection.caps=@%s you just got pwnt for using too many caps!
+protection.links=@%s please don't post links without permission!
+protection.symbol=@%s please don't spam symbols in chat.
+protection.emotes=@%s please don't spam emotes in chat.
+protection.essay=@%s , Geez man, were you typing a novel there? Try to keep the messages shorter please!
 
-# Protection Reasons
+protection.banned=@%s , that's it man you've had enough chances. Time to take a long time out!
+protection.banned.word=@%s you cannot say that here.
+protection.banned.symbols=@%s you cannot use those symbols here.
+
+# Filter Reasons.
 protection.reason.caps=User was purged for overuse of capitals.
 protection.reason.links=User posted a link without prior permission to do so.
 protection.reason.words.User was purged for saying a word which is banned in the channel.
@@ -246,8 +89,3 @@ protection.reason.symbols=User was purged for overuse of symbols in a message.
 protection.reason.emotes=User was purged for overuse of emotes in a message.
 protection.reason.essay=User was purged for typing a large message.
 protection.reason.banned=User was banned for constant disobey of the channel chat rules.
-
-protection.sleep.success=@%s protection is now disabled.
-protection.sleep.unchanged=@%s protection is already disabled.
-protection.wake.success=@%s protection is now enabled.
-protection.wake.unchanged=@%s protection is already enabled.
