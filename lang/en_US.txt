@@ -1,98 +1,110 @@
 # GENERIC LANG
 
-# Word
+# Word.
 word.alias=alias
 word.command=command
 word.quote=quote
 word.gif=gif
 word.raffle=raffle
 word.patreon=Patreon
+word.variable=variable
+word.raffle=raffle
 
 # Command Replies.
-generic.added=@%s the %s has been added successfully.
-generic.added.approval=@%s the %s has been added and is now awaiting approval.
-generic.edited=@%s the %s `%s` has been edited.
-generic.deleted=@%s the %s has been deleted.
-generic.deleted.flagged=@%s the %s has been flagged for deletion.
-generic.restore=@%s the %s %s has been restored.
+generic.added=%s the %s has been added successfully.
+generic.added.id=%s the %s has been added. You can call it using the Id %n.
+generic.added.approval=%s the %s has been added and is now awaiting approval.
+generic.modified=%s the %s has been added or modified successfully.
+generic.edited=%s the %s `%s` has been edited.
+generic.deleted=%s the %s has been deleted.
+generic.deleted.flagged=%s the %s has been flagged for deletion.
+generic.restore=%s the %s %s has been restored.
 
 # Command Errors.
-generic.override=@%s Sorry you can't override this command.
-generic.dupe=@%s you can't have a %s with the same name.
-generic.empty=@%s Oops, no %s's have been added yet.
-generic.error=@%s an error occurred; the error has been logged. ID: %s
-generic.missing=@%s the %s %s has not been found. Are you using the right name/id?
-generic.found=@%s the %s %s is already in use. Please try another name.
-generic.deleted.marked=@%s the %s has already been flagged for deletion.
-generic.meta.missing=@%s the %s data has not been set by the streamer yet. Try this command again when they add their info. (Don't poke them while they are live though)
-generic.provider.invalid=@%s Oops, this platform is not a valid option.
-generic.role.low=@%s you don't have the correct user role to perform this operation.
-generic.payload.empty=@%s you've appeared to not of changed anything for the %s. No data has been modified.
+generic.override=%s Sorry you can't override this command.
+generic.dupe=%s you can't have a %s with the same name.
+generic.empty=%s Oops, no %s's have been added yet.
+generic.error=%s an error occurred. Error Id: %s
+generic.missing=%s the %s %s has not been found. Are you using the right name/id?
+generic.found=%s the %s %s is already in use. Please try another name.
+generic.deleted.marked=%s the %s has already been flagged for deletion.
+generic.meta.missing=%s the %s data has not been set by the streamer yet. Try this command again when they add their info. (Don't poke them while they are live though)
+generic.provider.invalid=%s Oops, this platform is not a valid option.
+generic.role.low=%s you don't have the correct user role to perform this operation.
+generic.payload.empty=%s you've appeared to not of changed anything for the %s. No data has been modified.
 
 # Joi Errors.
-joi.string.empty=@%s Oops, the argument for the %s is missing.
-joi.string.short=@%s Oops, the argument for the %s is too short needs to be at least %d.
-joi.string.long=@%s Oops, the argument for the %s is too long max length of %d.
-joi.string.regex=@%s Oops, the argument expects a certain formatting for %s.
-joi.number.invalid=@%s Oops, the argument `%s` is a not valid number.
-joi.string.valid=@%s Oops, the param `%s` is not valid. Valid options are: %s
-joi.range=@%s Oops, the time you have given does not match the allowed range of %d to %d
+joi.string.empty=%s Oops, the argument for the `%s` is missing.
+joi.string.short=%s Oops, the argument for the `%s` is too short needs to be at least %d.
+joi.string.long=%s Oops, the argument for the `%s` is too long max length of %d.
+joi.string.regex=%s Oops, the argument expects a certain formatting for %s.
+joi.string.uri=%s Oops, the argument `%s` is a not valid URL.
+joi.number.invalid=%s Oops, the argument `%s` is a not valid number.
+joi.string.valid=%s Oops, the param `%s` is not valid. Valid options are: %s
+joi.range=%s Oops, the time you have given does not match the allowed range of %d to %d.
 
 # COMMAND LANG
 
-alias.success=@%s the alias `%s` is now linked to `%s`.
-alias.error.same=@%s Oops, you can't make an alias which has the same name as the command to link.
-alias.error.command=@%s Oops, we can't alias to a command which does not exists.
-alias.error.commands=@%s Oops, you can't make a command which has the same name as an alias.
+alias.success=%s the alias `%s` is now linked to `%s`.
+alias.error.same=%s Oops, you can't make an alias which has the same name as the command to link.
+alias.error.command=%s Oops, we can't alias to a command which does not exists.
+alias.error.commands=%s Oops, you can't make a command which has the same name as an alias.
 
-claim.success=@%s thank you for claiming your winning. The streamer has been notified!
+claim.streamer=%s has claimed the prize for the %s.
+claim.success=Thank you for claiming your winning. The streamer has been notified!
 
-linker.link=@%s here is your link for joining your %s account. Don't share this with anyone else! %s.
+filter.changed=%s the filter setting has been updated.
+filter.unchanged=%s this filter setting is already set.
 
-multicasting.error=@%s the multistream link has not been set yet.
+linker.link=%s here is your link for joining your %s account. Don't share this with anyone else! %s.
+
+multicasting.error=%s the multistream link has not been set yet.
 multicasting.get=We are multicasting! Come join us: %s
-multicasting.set=@%s the multistream listing has been updated to: %s
+multicasting.set=%s the multistream listing has been updated to: %s
 
-permit.self=@%s you can't permit yourself!
-permit.success=@%s has been permitted to post a link.
+permit.self=%s you can't permit yourself!
+permit.success=%s has been permitted to post a link.
 
 patreon.standard=You can also support %s on Patreon: %s
 patreon.details.0=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - \$%s to the next goal: %s
 patreon.deleted.1=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - Past last goal (Well done!)
 
-regular.added=@%s successfully added %s to the regulars list.
-regular.removed=@%s successfully removed %s from the regulars list.
+regular.added=%s successfully added %s to the regulars list.
+regular.removed=%s successfully removed %s from the regulars list.
 
-uptime.offline=@%s the streamer is not live!
-uptime.online=@%s the streamer has been live for %s.
+uptime.offline=%s the streamer is not live!
+uptime.online=%s the streamer has been live for %s.
 
 # EVENTS / GAMES LANG
 
-game.state.active=@%s the %s is already running. Wait for the game to end before running another one.
-game.state.start=@%s has started a %s
-game.state.start.sub=@%s has started a subscribers %s
-game.state.start.chat.word=Type "%s" into chat to get entered.
+game.entered.success=you have been entered into the %s.
 
-game.user.winner=@%s is the winner! Congratulations! *\0/* please run !claim to say you'd like the prize.
-game.user.winner.game=@%s has won the %s. Congratulations! *\0/* please run !claim to say you'd like the prize.
+game.state.active=%s the %s is already running. Wait for the game to end before running another one.
+game.state.start=%s has started a %s
+game.state.start.sub=%s has started a subscribers %s
+game.state.start.chat.word=Type "%s" into chat to get entered.
+game.state.ended.empty=Awww, no one entered the %s :( #SadPanda
+game.state.claim.empty=Awww, no one claimed the prize for the %s in time.
+game.state.cap.reached=Awww, the reroll cap has been reached. No winner this time around!
+
+game.user.winner=%s is the winner! Congratulations! *\0/* please run `!claim %s` to say you'd like the prize otherwise it will be re-rolled!
+game.user.winner.game=%s has won the %s. Congratulations! *\0/* please run `!claim %s` to say you'd like the prize otherwise it will be re-rolled!
 
 # PROTECTION LANG
 
 # Filter Replies.
-protection.caps=@%s you just got pwnt for using too many caps!
-protection.links=@%s please don't post links without permission!
-protection.symbol=@%s please don't spam symbols in chat.
-protection.emotes=@%s please don't spam emotes in chat.
-protection.essay=@%s Geez man, were you typing a novel there? Try to keep the messages shorter please!
-
-protection.banned=@%s that's it man you've had enough chances. Time to take a long time out!
-protection.banned.word=@%s you cannot say that here.
-protection.banned.symbols=@%s you cannot use those symbols here.
+protection.caps=%s you just got pwnt for using too many caps!
+protection.links=%s please don't post links without permission!
+protection.symbol=%s please don't spam symbols in chat.
+protection.emotes=%s please don't spam emotes in chat.
+protection.essay=%s Geez man, were you typing a novel there? Try to keep the messages shorter please!
+protection.word=%s you cannot say that here.
+protection.banned=%s that's it man you've had enough chances. Time to take a long time out!
 
 # Filter Reasons.
 protection.reason.caps=User was purged for overuse of capitals.
 protection.reason.links=User posted a link without prior permission to do so.
-protection.reason.words.User was purged for saying a word which is banned in the channel.
+protection.reason.words=User was purged for saying a word which is banned in the channel.
 protection.reason.symbols=User was purged for overuse of symbols in a message.
 protection.reason.emotes=User was purged for overuse of emotes in a message.
 protection.reason.essay=User was purged for typing a large message.
