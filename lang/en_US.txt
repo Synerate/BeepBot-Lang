@@ -12,7 +12,7 @@ word.raffle=raffle
 
 # Command Replies.
 generic.added=%s the %s has been added successfully.
-generic.added.id=%s the %s has been added. You can call it using the Id %n.
+generic.added.id=%s the %s has been added. You can call it using the Id %d.
 generic.added.approval=%s the %s has been added and is now awaiting approval.
 generic.modified=%s the %s has been added or modified successfully.
 generic.edited=%s the %s `%s` has been edited.
