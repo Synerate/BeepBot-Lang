@@ -59,8 +59,21 @@ filter.unchanged=%s this filter setting is already set.
 linker.link=%s here is your link for joining your %s account. Don't share this with anyone else! %s.
 
 multicasting.error=%s the multistream link has not been set yet.
-multicasting.get=We are multicasting! Come join us: %s
+multicasting.get=We are multicasting! %s
 multicasting.set=%s the multistream listing has been updated to: %s
+
+raffle.error.word=%s Oops, a raffle word needs to be set!
+
+points.toggle.on=%s points have been toggled on for this platform.
+points.toggle.off=%s points have been toggled off for this platform.
+points.get=%s you have %s %s.
+points.get.capped=%s you currently have %s %s, but you have reached the maximum limit for the wallet %s. I suggest purchasing a new wallet using; !wallet upgrade
+points.status.missing=%s the tracker seems to be missing for the channel.
+points.restart.tracker=%s the tracker has been restarted. Note: If one was running before the timeout has been reset.
+points.state.changed=%s the points state has been changed to %s.
+points.state.modified=%s the point state %s has had it's values changed to; Active %d / Lurkers: %d.
+points.state.not.found=%s the state %s was not found. You can create it by running the same command but add the following arguments after for the active and lurking earning amount. E.G. !points set state testing 0.5 0.2
+points.state.created=%s the state %s has been created and been made active.
 
 permit.self=%s you can't permit yourself!
 permit.success=%s has been permitted to post a link.
@@ -75,6 +88,12 @@ regular.removed=%s successfully removed %s from the regulars list.
 uptime.offline=%s the streamer is not live!
 uptime.online=%s the streamer has been live for %s.
 
+wallet.current=%s you currently have the %s %s. You have %d %s to which you have %d%% capacity left.
+wallet.upgrade.success=%s you have successfully upgraded your %s to %s from %s at a cost of %d %s.
+wallet.upgrade.status=%s the next %s you can purchase is %s as a cost of %d %s.
+wallet.upgrade.insufficient=%s oops you don't have enough %s to purchase the next %s.
+wallet.upgrade.no.wallets=%s oops no more %s could be found for the channel.
+
 # EVENTS / GAMES LANG
 
 game.entered.success=you have been entered into the %s.
@@ -87,8 +106,13 @@ game.state.ended.empty=Awww, no one entered the %s :( #SadPanda
 game.state.claim.empty=Awww, no one claimed the prize for the %s in time.
 game.state.cap.reached=Awww, the reroll cap has been reached. No winner this time around!
 
-game.user.winner=%s is the winner! Congratulations! *\0/* please run `!claim %s` to say you'd like the prize otherwise it will be re-rolled!
-game.user.winner.game=%s has won the %s. Congratulations! *\0/* please run `!claim %s` to say you'd like the prize otherwise it will be re-rolled!
+game.user.winner=%s is the winner! Congratulations! *\0/*
+game.user.winner.game=%s has won the %s. Congratulations! *\0/*
+
+game.points.none=%s You don't have any %s yet. Sit around in chat to earn them!
+game.points.insufficient=%s Sadly you don't have enough %s to take part.
+game.points.win=%s Congratulations! you have won %d %s, you now have %d %s.
+game.points.lose=%s Your %s are safely in the bank... aaand it's gone!
 
 # PROTECTION LANG
 
@@ -109,3 +133,9 @@ protection.reason.symbols=User was purged for overuse of symbols in a message.
 protection.reason.emotes=User was purged for overuse of emotes in a message.
 protection.reason.essay=User was purged for typing a large message.
 protection.reason.banned=User was banned for constant disobey of the channel rules.
+
+# Protection Commands
+protection.sleep.success=@%s protection is now disabled.
+protection.sleep.unchanged=@%s protection is already disabled.
+protection.wake.success=@%s protection is now enabled.
+protection.wake.unchanged=@%s protection is already enabled.
