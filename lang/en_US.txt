@@ -64,6 +64,7 @@ multicasting.set=%s the multistream listing has been updated to: %s
 
 raffle.error.word=%s Oops, a raffle word needs to be set!
 
+points.none=You don't own any points yet. Sit around in chat to earn points!
 points.toggle.on=%s points have been toggled on for this platform.
 points.toggle.off=%s points have been toggled off for this platform.
 points.get=%s you have %s %s.
@@ -94,18 +95,28 @@ wallet.upgrade.status=%s the next %s you can purchase is %s as a cost of %d %s.
 wallet.upgrade.insufficient=%s oops you don't have enough %s to purchase the next %s.
 wallet.upgrade.no.wallets=%s oops no more %s could be found for the channel.
 
+schedule.missing=No schedule item could be found.
+schedule.next=Up Next! %s. %s
+schedule.next.group=Up Next! %s. Playing with: %s %s
+schedule.current=Currently Live: %s.
+schedule.current.group=Currently Live: %s. Playing with: %s
+
 # EVENTS / GAMES LANG
 
 game.entered.success=you have been entered into the %s.
+game.entered.fail.roles=Sadly you don't have the needed roles to join this game.
+game.entered.fail.points=Sadly you don't have enough points to enter.
 
 game.state.active=%s the %s is already running. Wait for the game to end before running another one.
 game.state.start=%s has started a %s
 game.state.start.sub=%s has started a subscribers %s
 game.state.start.chat.word=Type "%s" into chat to get entered.
 game.state.ended.empty=Awww, no one entered the %s :( #SadPanda
+game.state.claim.reroll=The giveaway was not claimed! Re-rolling...
 game.state.claim.empty=Awww, no one claimed the prize for the %s in time.
 game.state.cap.reached=Awww, the reroll cap has been reached. No winner this time around!
 
+game.user.claim=Please type !claim %s to claim the prize. You have 60 seconds to claim the prize!
 game.user.winner=%s is the winner! Congratulations! *\0/*
 game.user.winner.game=%s has won the %s. Congratulations! *\0/*
 
@@ -135,7 +146,7 @@ protection.reason.essay=User was purged for typing a large message.
 protection.reason.banned=User was banned for constant disobey of the channel rules.
 
 # Protection Commands
-protection.sleep.success=@%s protection is now disabled.
-protection.sleep.unchanged=@%s protection is already disabled.
-protection.wake.success=@%s protection is now enabled.
-protection.wake.unchanged=@%s protection is already enabled.
+protection.sleep.success=%s protection is now disabled.
+protection.sleep.unchanged=%s protection is already disabled.
+protection.wake.success=%s protection is now enabled.
+protection.wake.unchanged=%s protection is already enabled.
