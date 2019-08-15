@@ -25,6 +25,7 @@ generic.override=%s Sorry you can't override this command.
 generic.dupe=%s you can't have a %s with the same name.
 generic.empty=%s Oops, no %s's have been added yet.
 generic.error=%s an error occurred. Error Id: %s
+generic.error.command=%s Oops, an error occurred while processing this command.
 generic.missing=%s the %s %s has not been found. Are you using the right name/id?
 generic.found=%s the %s %s is already in use. Please try another name.
 generic.deleted.marked=%s the %s has already been flagged for deletion.
@@ -49,6 +50,14 @@ alias.success=%s the alias `%s` is now linked to `%s`.
 alias.error.same=%s Oops, you can't make an alias which has the same name as the command to link.
 alias.error.command=%s Oops, we can't alias to a command which does not exists.
 alias.error.commands=%s Oops, you can't make a command which has the same name as an alias.
+
+autohost.enabled=%s auto-hosting is now enabled!
+autohost.missing.global=%s auto-hosting is now enabled. But global host is off, this would need toggling on.
+autohost.disabled=%s auto-hosting is now disabled for this provider!
+
+clip.lost=Oops, the clip was lost to the bowels of %s's server room.
+clip.started=%s the bytes are being stacked and squashed. Please stand by...
+clip.created=%s has created a clip! %s
 
 claim.streamer=%s has claimed the prize for the %s.
 claim.success=Thank you for claiming your winning. The streamer has been notified!
@@ -91,6 +100,8 @@ uptime.online=%s the streamer has been live for %s.
 
 wallet.current=%s you currently have the %s %s. You have %d %s to which you have %d%% capacity left.
 wallet.upgrade.success=%s you have successfully upgraded your %s to %s from %s at a cost of %d %s.
+wallet.upgraded.success=%s The wallet for %s has been upgraded successfully.
+wallet.downgraded.success=%s The wallet for %s has been downgraded successfully.
 wallet.upgrade.status=%s the next %s you can purchase is %s as a cost of %d %s.
 wallet.upgrade.insufficient=%s oops you don't have enough %s to purchase the next %s.
 wallet.upgrade.no.wallets=%s oops no more %s could be found for the channel.
@@ -112,6 +123,7 @@ game.state.start=%s has started a %s
 game.state.start.sub=%s has started a subscribers %s
 game.state.start.chat.word=Type "%s" into chat to get entered.
 game.state.ended.empty=Awww, no one entered the %s :( #SadPanda
+game.state.claimed=%s Oops, this key has already been claimed for.
 game.state.claim.reroll=The giveaway was not claimed! Re-rolling...
 game.state.claim.empty=Awww, no one claimed the prize for the %s in time.
 game.state.cap.reached=Awww, the reroll cap has been reached. No winner this time around!
@@ -124,6 +136,8 @@ game.points.none=%s You don't have any %s yet. Sit around in chat to earn them!
 game.points.insufficient=%s Sadly you don't have enough %s to take part.
 game.points.win=%s Congratulations! you have won %d %s, you now have %d %s.
 game.points.lose=%s Your %s are safely in the bank... aaand it's gone!
+
+game.heist.cooldown=Oops, the SWAT are still around. Give it a minute for them to disperse to the cookie store.
 
 # PROTECTION LANG
 
