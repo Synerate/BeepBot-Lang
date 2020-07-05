@@ -59,7 +59,7 @@ clip.lost=Oops, the clip was lost to the bowels of %s's server room.
 clip.started=%s the bytes are being stacked and squashed. Please stand by...
 clip.created=%s has created a clip! %s
 
-claim.streamer=%s, the prize has been claimed %s.
+claim.streamer=%s, the prize has been claimed.
 
 filter.changed=%s the filter setting has been updated.
 filter.unchanged=%s this filter setting is already set.
