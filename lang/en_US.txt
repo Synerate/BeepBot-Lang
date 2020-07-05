@@ -59,8 +59,7 @@ clip.lost=Oops, the clip was lost to the bowels of %s's server room.
 clip.started=%s the bytes are being stacked and squashed. Please stand by...
 clip.created=%s has created a clip! %s
 
-claim.streamer=%s has claimed the prize for the %s.
-claim.success=Thank you for claiming your winning. The streamer has been notified!
+claim.streamer=%s, the prize has been claimed %s.
 
 filter.changed=%s the filter setting has been updated.
 filter.unchanged=%s this filter setting is already set.
@@ -128,7 +127,7 @@ game.state.claim.reroll=The giveaway was not claimed! Re-rolling...
 game.state.claim.empty=Awww, no one claimed the prize for the %s in time.
 game.state.cap.reached=Awww, the reroll cap has been reached. No winner this time around!
 
-game.user.claim=Please type `!claim %s` to claim the prize. You have 60 seconds to claim the prize! Make sure you type the 4 characters too!
+game.user.claim=%s please type `!claim` to claim the prize. You have 120 seconds to claim the prize!
 game.user.winner=%s is the winner! Congratulations! *\0/*
 game.user.winner.game=%s has won the %s. Congratulations! *\0/*
 
