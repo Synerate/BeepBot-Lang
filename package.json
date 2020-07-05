@@ -1,6 +1,6 @@
 {
   "name": "beepbot-lang",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "author": "Nydardoric",
   "description": "Language files used by BeepBot.",
   "main": "js/index.js",
@@ -25,6 +25,6 @@
   },
   "license": "MIT",
   "publishConfig": {
-	"registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   }
 }
