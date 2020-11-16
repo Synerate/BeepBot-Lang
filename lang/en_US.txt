@@ -4,17 +4,10 @@
 word.alias=alias
 word.command=command
 word.quote=quote
-word.gif=gif
-word.raffle=raffle
-word.patreon=Patreon
-word.variable=variable
-word.raffle=raffle
 
 # Command Replies.
 generic.added=%s the %s has been added successfully.
 generic.added.id=%s the %s has been added. You can call it using the Id %d.
-generic.added.approval=%s the %s has been added and is now awaiting approval.
-generic.modified=%s the %s has been added or modified successfully.
 generic.edited=%s the %s `%s` has been edited.
 generic.deleted=%s the %s has been deleted.
 generic.deleted.flagged=%s the %s has been flagged for deletion.
@@ -25,12 +18,8 @@ generic.override=%s Sorry you can't override this command.
 generic.dupe=%s you can't have a %s with the same name.
 generic.empty=%s Oops, no %s's have been added yet.
 generic.error=%s an error occurred. Error Id: %s
-generic.error.command=%s Oops, an error occurred while processing this command.
 generic.missing=%s the %s %s has not been found. Are you using the right name/id?
-generic.found=%s the %s %s is already in use. Please try another name.
 generic.deleted.marked=%s the %s has already been flagged for deletion.
-generic.meta.missing=%s the %s data has not been set by the streamer yet. Try this command again when they add their info. (Don't poke them while they are live though)
-generic.provider.invalid=%s Oops, this platform is not a valid option.
 generic.role.low=%s you don't have the correct user role to perform this operation.
 generic.payload.empty=%s you've appeared to not of changed anything for the %s. No data has been modified.
 
@@ -42,7 +31,6 @@ joi.string.regex=%s Oops, the argument expects a certain formatting for %s.
 joi.string.uri=%s Oops, the argument `%s` is a not valid URL.
 joi.number.invalid=%s Oops, the argument `%s` is a not valid number.
 joi.string.valid=%s Oops, the param `%s` is not valid. Valid options are: %s
-joi.range=%s Oops, the time you have given does not match the allowed range of %d to %d.
 
 # COMMAND LANG
 
@@ -64,58 +52,60 @@ claim.streamer=%s, the prize has been claimed.
 filter.changed=%s the filter setting has been updated.
 filter.unchanged=%s this filter setting is already set.
 
-linker.link=%s here is your link for joining your %s account. Don't share this with anyone else! %s.
-
 multicasting.error=%s the multistream link has not been set yet.
 multicasting.get=We are multicasting! %s
 multicasting.set=%s the multistream listing has been updated to: %s
 
 raffle.error.word=%s Oops, a raffle word needs to be set!
 
-points.none=You don't own any points yet. Sit around in chat to earn points!
-points.toggle.on=%s points have been toggled on for this platform.
-points.toggle.off=%s points have been toggled off for this platform.
-points.get=%s you have %s %s.
-points.get.capped=%s you currently have %s %s, but you have reached the maximum limit for the wallet %s. I suggest purchasing a new wallet using; !wallet upgrade
-points.status.missing=%s the tracker seems to be missing for the channel.
-points.restart.tracker=%s the tracker has been restarted. Note: If one was running before the timeout has been reset.
-points.state.changed=%s the points state has been changed to %s.
-points.state.modified=%s the point state %s has had it's values changed to; Active %d / Lurkers: %d.
-points.state.not.found=%s the state %s was not found. You can create it by running the same command but add the following arguments after for the active and lurking earning amount. E.G. !points set state testing 0.5 0.2
-points.state.created=%s the state %s has been created and been made active.
-
 permit.self=%s you can't permit yourself!
 permit.success=%s has been permitted to post a link.
-
-patreon.standard=You can also support %s on Patreon: %s
-patreon.details.0=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - \$%s to the next goal: %s
-patreon.deleted.1=Patreon is now on \$%s (%s patrons - average \$%s/patreon) - Past last goal (Well done!)
 
 regular.added=%s successfully added %s to the regulars list.
 regular.removed=%s successfully removed %s from the regulars list.
 
-uptime.offline=%s the streamer is not live!
-uptime.online=%s the streamer has been live for %s.
-
 wallet.current=%s you currently have the %s %s. You have %d %s to which you have %d%% capacity left.
 wallet.upgrade.success=%s you have successfully upgraded your %s to %s from %s at a cost of %d %s.
-wallet.upgraded.success=%s The wallet for %s has been upgraded successfully.
-wallet.downgraded.success=%s The wallet for %s has been downgraded successfully.
 wallet.upgrade.status=%s the next %s you can purchase is %s as a cost of %d %s.
 wallet.upgrade.insufficient=%s oops you don't have enough %s to purchase the next %s.
 wallet.upgrade.no.wallets=%s oops no more %s could be found for the channel.
 
 schedule.missing=No schedule item could be found.
-schedule.next=Up Next! %s. %s
+schedule.next=Up Next! %s %s
 schedule.next.group=Up Next! %s. Playing with: %s %s
 schedule.current=Currently Live: %s.
 schedule.current.group=Currently Live: %s. Playing with: %s
+
+# CURRENCY LANG
+currency.user.amount=%s, you have %s of %s and you are at position %d in the leaderboard.
+currency.user.none=%s, you have 0 of %s.
+currency.user.top=Top %d: %s
+currency.daily.claim=%s, you have claimed the daily bonus of %s %s.
+currency.daily.claimed=%s, you have already claimed the daily bonus in the last 24 hours.
+currency.steal.self=%s, Oops you can't steal from yourself.
+currency.steal.stop=%s, %s stopped your attempt at stealing!
+currency.steal.insufficient=%s, %s does not have any %s to steal!
+currency.steal.win=%s, you have stolen %s %s from %s.
+currency.gift.self=%s, Oops you can't send to yourself!
+currency.gift.insufficient=%s, you do not have enough %s to gift.
+currency.gift.sent=%s, you have sent %s %s of %s.
+currency.buy.insufficient=%s, you do not have enough %s to buy.
+currency.buy.missing=%s, the currency %s was not found. Are you using the right name?
+currency.buy.bought=%s, you have bought %s %s at a cost of %s %s.
+currency.change.set=%s, you have changed %s %s to %s.
+currency.change.add=%s, you have added %s of %s to %s.
+currency.change.rm=%s, you have removed %s of %s from %s.
+currency.change.setall=%s, you have changed %s users with %s to %s.
+currency.change.addall=%s, you have added %s of %s to %s users.
+currency.change.rmall=%s, you have removed %s of %s from %s users.
+currency.spend.insufficient=%s you do not have enough %s to spend.
+currency.game.win=%s Congratulations! you have won %d %s, you now have %d %s.
+currency.game.lose=%s Your %s are safely in the bank... aaand it's gone!
 
 # EVENTS / GAMES LANG
 
 game.entered.success=you have been entered into the %s.
 game.entered.fail.roles=Sadly you don't have the needed roles to join this game.
-game.entered.fail.points=Sadly you don't have enough points to enter.
 
 game.state.active=%s the %s is already running. Wait for the game to end before running another one.
 game.state.start=%s has started a %s
@@ -124,19 +114,11 @@ game.state.start.chat.word=Type "%s" into chat to get entered.
 game.state.ended.empty=Awww, no one entered the %s :( #SadPanda
 game.state.claimed=%s Oops, this key has already been claimed for.
 game.state.claim.reroll=The giveaway was not claimed! Re-rolling...
-game.state.claim.empty=Awww, no one claimed the prize for the %s in time.
 game.state.cap.reached=Awww, the reroll cap has been reached. No winner this time around!
 
 game.user.claim=%s please type `!claim` to claim the prize. You have 120 seconds to claim the prize!
 game.user.winner=%s is the winner! Congratulations! *\0/*
 game.user.winner.game=%s has won the %s. Congratulations! *\0/*
-
-game.points.none=%s You don't have any %s yet. Sit around in chat to earn them!
-game.points.insufficient=%s Sadly you don't have enough %s to take part.
-game.points.win=%s Congratulations! you have won %d %s, you now have %d %s.
-game.points.lose=%s Your %s are safely in the bank... aaand it's gone!
-
-game.heist.cooldown=Oops, the SWAT are still around. Give it a minute for them to disperse to the cookie store.
 
 # PROTECTION LANG
 
@@ -157,9 +139,3 @@ protection.reason.symbols=User was purged for overuse of symbols in a message.
 protection.reason.emotes=User was purged for overuse of emotes in a message.
 protection.reason.essay=User was purged for typing a large message.
 protection.reason.banned=User was banned for constant disobey of the channel rules.
-
-# Protection Commands
-protection.sleep.success=%s protection is now disabled.
-protection.sleep.unchanged=%s protection is already disabled.
-protection.wake.success=%s protection is now enabled.
-protection.wake.unchanged=%s protection is already enabled.
