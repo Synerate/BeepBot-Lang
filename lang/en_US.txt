@@ -84,6 +84,7 @@ currency.daily.claim=%s, you have claimed the daily bonus of %s %s.
 currency.daily.claimed=%s, you have already claimed the daily bonus in the last 24 hours.
 currency.steal.self=%s, Oops you can't steal from yourself.
 currency.steal.stop=%s, %s stopped your attempt at stealing!
+currency.steal.stop.loss=%s, %s stopped your attempt at stealing. You have lost %s %s.
 currency.steal.insufficient=%s, %s does not have any %s to steal!
 currency.steal.win=%s, you have stolen %s %s from %s.
 currency.gift.self=%s, Oops you can't send to yourself!
