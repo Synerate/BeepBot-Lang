@@ -102,6 +102,8 @@ currency.change.rmall=%s, you have removed %s of %s from %s users.
 currency.spend.insufficient=%s you do not have enough %s to spend.
 currency.game.win=%s Congratulations! you have won %d %s, you now have %d %s.
 currency.game.lose=%s Your %s are safely in the bank... aaand it's gone!
+currency.game.lose.capped=%s, Oops you had won %s %s but you are at your wallet limit. So have you've lost %s %s, maybe should upgrade your wallet?
+currency.gamble.limit=%s, oops your bet amount is over the safe gamble limit set by the channel.
 
 # EVENTS / GAMES LANG
 
