@@ -1,6 +1,6 @@
 {
   "name": "beepbot-lang",
-  "version": "2.1.9",
+  "version": "2.1.10",
   "author": "Nydardoric",
   "description": "Language files used by BeepBot.",
   "main": "js/index.js",
